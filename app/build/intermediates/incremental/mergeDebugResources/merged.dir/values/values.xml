@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="op_alerta_editar_excluir_item">
+        <item>@string/op_alerta_editar_item</item>
+        <item>@string/op_alerta_excluir_item</item>
+    </array>
+    <array name="op_alerta_sai">
+        <item>@string/op_alerta_editar_item</item>
+        <item>@string/op_alerta_excluir_item</item>
+    </array>
+    <array name="op_alerta_sim_nao">
+        <item>@string/op_alerta_sim</item>
+        <item>@string/op_alerta_nao</item>
+    </array>
+    <array name="op_at_cliente">
+        <item>@string/op_atend_cliente_sim</item>
+        <item>@string/op_atend_cliente_nao</item>
+
+    </array>
+    <array name="op_file_backup">
+        <item>@string/op_enviar</item>
+        <item>@string/op_deletar</item>
+    </array>
+    <array name="op_menu_atu_data">
+        <item>@string/op_menu_principa_atu_data</item>
+    </array>
+    <array name="op_menu_cliente">
+        <item>@string/op_menu_cliente_salvar</item>
+        <item>@string/op_menu_cliente_sair</item>
+    </array>
+    <array name="op_menu_comissao">
+
+        <item>@string/op_menu_principa_rel_comis</item>
+
+    </array>
+    <array name="op_menu_consulta_cliente">
+        <item>@string/op_menu_cliente_sair</item>
+    </array>
+    <array name="op_menu_opcoes_clientes">
+        <item>@string/op_menu_op_clientes_info_finan</item>
+    </array>
+    <array name="op_menu_pedido">
+        <item>@string/op_menu_pedido_salvar</item>
+        <item>@string/op_menu_pedido_incluiritem</item>
+        <item>@string/op_menu_pedido_excluir</item>
+        <item>@string/op_menu_pedido_sair</item>
+        <item>@string/op_menu_pedido_creceber</item>
+
+    </array>
+    <array name="op_menu_preco">
+        <item>@string/op_menu_principa_rel_valor</item>
+    </array>
+    <array name="op_menu_precoRel">
+        <item>@string/op_menu_principa_atu_comis</item>
+    </array>
+    <array name="op_menu_principalAtividades">
+        <item>@string/op_menu_principa_atender_cliente</item>
+    </array>
+    <array name="op_menu_principalCliente">
+        <item>@string/op_menu_principa_pre_cadastro</item>
+        <item>@string/op_menu_principa_consultar_cliente</item>
+        <item>@string/op_menu_principa_consultar_pedidos_cliente</item>
+    </array>
+    <array name="op_menu_principalExtra">
+
+        <item>@string/op_menu_principa_sinc_teste_int</item>
+        <item>@string/op_menu_principa_sinc_atualizarSistema</item>
+
+        <item>@string/op_menu_principa_sinc_informacoes</item>
+
+    </array>
+    <array name="op_menu_principalLozalizar">
+        <item>@string/op_menu_principa_localizar_cliente</item>
+        <item>@string/op_menu_principa_localizarRota_cliente</item>
+        <item>@string/op_menu_principa_GereneciarRotas_cliente</item>
+    </array>
+    <array name="op_menu_principalPedidos">
+        <item>@string/op_menu_principa_pedidos_n_enviados</item>
+        <item>@string/op_menu_principa_lotes_pedido</item>
+    </array>
+    <array name="op_menu_principalSinc">
+        <item>@string/op_menu_principa_sinc_enviar_pendentes</item>
+        <item>@string/op_menu_principa_sinc_total</item>
+        <item>@string/op_menu_principa_sinc_receber_config</item>
+    </array>
+    <array name="op_menu_rel">
+
+        <item>@string/op_menu_principa_rel_peso</item>
+
+    </array>
+    <array name="op_menu_relRota">
+
+        <item>@string/op_menu_principa_rel_rota</item>
+        <item>@string/op_menu_principa_rel_rota_cli</item>
+    </array>
+    <array name="op_menu_relvazio">
+
+        <item>@string/op_menu_principa_relvazio</item>
+
+    </array>
+    <array name="op_menu_sel">
+        <item>@string/op_menu_principa_pedidos_n_enviados</item>
+        <item>@string/op_menu_principa_lotes_pedido</item>
+    </array>
+    <array name="op_rotas">
+        <item>@string/op_rotas_verped</item>
+        <item>@string/op_rotas_cancelvis</item>
+
+    </array>
+    <integer name="google_play_services_version">4132500</integer>
+    <string name="about">About</string>
+    <string name="about_summary">Android Calendar View Demo V0.5.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_label">Madereira Carmopolis</string>
+    <string name="app_name">Mercador</string>
+    <string name="atualiza_bd_vs2_1">
+        ALTER TABLE condicaoDePgto ADD COLUMN nrvenc  INTEGER;
+    </string>
+    <string name="atualiza_bd_vs2_10">
+        ALTER TABLE config ADD COLUMN diastolerancia  Integer;
+    </string>
+    <string name="atualiza_bd_vs2_11">
+        ALTER TABLE clientes ADD COLUMN pervisita  Integer;
+    </string>
+    <string name="atualiza_bd_vs2_12">
+        ALTER TABLE pedidos ADD COLUMN recebimento  double;
+    </string>
+    <string name="atualiza_bd_vs2_13">
+        ALTER TABLE pedidos ADD COLUMN limcredped  double;
+    </string>
+    <string name="atualiza_bd_vs2_14">
+        ALTER TABLE pedidos ADD COLUMN pesotot  double;
+    </string>
+    <string name="atualiza_bd_vs2_15">
+        ALTER TABLE itensPedido ADD COLUMN pesoliq  double;
+    </string>
+    <string name="atualiza_bd_vs2_16">
+        ALTER TABLE pedidos ADD COLUMN data  string;
+    </string>
+    <string name="atualiza_bd_vs2_17">
+        ALTER TABLE pedidos ADD COLUMN id_visita  TEXT;
+    </string>
+    <string name="atualiza_bd_vs2_18">
+        ALTER TABLE visitas ADD COLUMN  idVisita   TEXT;
+    </string>
+    <string name="atualiza_bd_vs2_19">
+        ALTER TABLE itensPedido ADD COLUMN largura  double;
+    </string>
+    <string name="atualiza_bd_vs2_2">
+        CREATE INDEX idxprodutos_chave ON produtos (codPrduto, codUn ASC);
+    </string>
+    <string name="atualiza_bd_vs2_20">
+        ALTER TABLE itensPedido ADD COLUMN espessura  double;
+    </string>
+    <string name="atualiza_bd_vs2_21">
+        ALTER TABLE itensPedido ADD COLUMN  comprimento   double;
+    </string>
+    <string name="atualiza_bd_vs2_22">
+        ALTER TABLE itensPedido ADD COLUMN  quantcalc   double;
+    </string>
+    <string name="atualiza_bd_vs2_23">
+        ALTER TABLE itensPedido ADD COLUMN  comissao   double;
+    </string>
+    <string name="atualiza_bd_vs2_24">
+        ALTER TABLE pedidos ADD COLUMN comistot  double;
+    </string>
+    <string name="atualiza_bd_vs2_25">
+        ALTER TABLE itensPedido ADD COLUMN preco_st double(12,4) ;
+    </string>
+    <string name="atualiza_bd_vs2_26">
+        ALTER TABLE precadastro ADD COLUMN cod_vendedor  Integer;
+    </string>
+    <string name="atualiza_bd_vs2_27">
+        ALTER TABLE precadastro ADD COLUMN clianalise  Integer;
+    </string>
+    <string name="atualiza_bd_vs2_28">
+        ALTER TABLE precadastro ADD COLUMN data  String;
+     </string>
+    <string name="atualiza_bd_vs2_29">
+        ALTER TABLE precadastro ADD COLUMN clipervisita  Integer;
+     </string>
+    <string name="atualiza_bd_vs2_3">
+        CREATE INDEX idxclientes_chave ON clientes (codigo ASC);
+    </string>
+    <string name="atualiza_bd_vs2_30">
+        ALTER TABLE precadastro ADD COLUMN clicondimerc  TEXT;
+     </string>
+    <string name="atualiza_bd_vs2_31">
+        ALTER TABLE precadastro ADD COLUMN cliformmerc  TEXT;
+     </string>
+    <string name="atualiza_bd_vs2_32">
+        ALTER TABLE precadastro ADD COLUMN clirotamerc  TEXT;
+     </string>
+    <string name="atualiza_bd_vs2_33">
+        ALTER TABLE precadastro ADD COLUMN numero  TEXT;
+     </string>
+    <string name="atualiza_bd_vs2_34">
+        ALTER TABLE clientes ADD COLUMN numero  TEXT;
+     </string>
+    <string name="atualiza_bd_vs2_35">
+        ALTER TABLE precadastro ADD COLUMN data  String;
+     </string>
+    <string name="atualiza_bd_vs2_4">
+        CREATE INDEX idxprecadastro_chave ON precadastro (codigo ASC);
+    </string>
+    <string name="atualiza_bd_vs2_5">
+        CREATE INDEX idxprodutoInfo_chave ON produtoInfo (codPrduto,_idTabela,codUn,ordem ASC);
+    </string>
+    <string name="atualiza_bd_vs2_6">
+        CREATE INDEX idxcreceb_chave ON creceb (_id ASC);
+    </string>
+    <string name="atualiza_bd_vs2_7">
+        ALTER TABLE pedidos ADD COLUMN saldoverba  double;
+    </string>
+    <string name="atualiza_bd_vs2_8">
+        ALTER TABLE precadastro ADD COLUMN email  String;
+    </string>
+    <string name="atualiza_bd_vs2_9">
+        ALTER TABLE condicaoDePgto ADD COLUMN qtdparcela  Integer;
+    </string>
+    <string name="atualiza_vsteste">
+        ALTER TABLE pedidos ADD COLUMN testando  double;
+    </string>
+    <string name="configs_atalhos">s</string>
+    <string name="configs_label">Configurações</string>
+    <string name="dialog_area"/>
+    <string name="dialog_area_hint"/>
+    <string name="dialog_code"/>
+    <string name="dialog_code_hint"/>
+    <string name="header">header</string>
+    <string name="hello">Mercado vs. Beta</string>
+    <string name="hint">Hint: touch the first or last day of month to move to previous or next month.</string>
+    <string name="indice_dev">
+    CREATE TABLE IF NOT EXISTS indice_dev ( _id INTEGER PRIMARY KEY AUTOINCREMENT,
+          produto text,
+          cliente text ,
+          devolucao double,
+          indice double,
+          venda double);
+    </string>
+    <string name="menu_add">menu_add</string>
+    <string name="op_adicionais">Opcoes Adicionais</string>
+    <string name="op_alerta_editar_item">Editar Item</string>
+    <string name="op_alerta_excluir_item">Excluir Item</string>
+    <string name="op_alerta_nao">Não</string>
+    <string name="op_alerta_sim">Sim</string>
+    <string name="op_atend_cliente">1 pendência de pagamento</string>
+    <string name="op_atend_cliente_nao">Voltar</string>
+    <string name="op_atend_cliente_sim">Prosseguir</string>
+    <string name="op_deletar">Deletar</string>
+    <string name="op_enviar">Enviar Backup</string>
+    <string name="op_menu_cliente_sair">Sair</string>
+    <string name="op_menu_cliente_salvar">Salvar</string>
+    <string name="op_menu_op_clientes_info_finan">Info. Financeiras</string>
+    <string name="op_menu_pedido_aplicadescacres">Aplicar Desconto</string>
+    <string name="op_menu_pedido_creceber">Info. Financeira</string>
+    <string name="op_menu_pedido_excluir">Excluir Pedido</string>
+    <string name="op_menu_pedido_incluiritem">Adicionar Itens ao Pedido</string>
+    <string name="op_menu_pedido_sair">Sair</string>
+    <string name="op_menu_pedido_salvar">Salvar</string>
+    <string name="op_menu_principa_GereneciarRotas_cliente">Ultimas Visitas</string>
+    <string name="op_menu_principa_atender_cliente">Atender Cliente</string>
+    <string name="op_menu_principa_atu_comis">Atualizar Comissoes</string>
+    <string name="op_menu_principa_atu_data">Atualizar Datas</string>
+    <string name="op_menu_principa_consultar_cliente">Dados do Cliente</string>
+    <string name="op_menu_principa_consultar_pedidos_cliente">Pedidos do Cliente</string>
+    <string name="op_menu_principa_ger_dados">Gerenciar Dados</string>
+    <string name="op_menu_principa_hist_alt_cadastro">Historico de Alteração de Cadastro</string>
+    <string name="op_menu_principa_localizarRota_cliente">Localizar por Rota</string>
+    <string name="op_menu_principa_localizar_cliente">Localizar Cliente</string>
+    <string name="op_menu_principa_lotes_pedido">Lotes de Pedidos Env.</string>
+    <string name="op_menu_principa_pedidos_n_enviados">Pedidos não Enviados</string>
+    <string name="op_menu_principa_pre_cadastro">Efetuar Pré Cadastro</string>
+    <string name="op_menu_principa_rel_comis">Total de comissão por data</string>
+    <string name="op_menu_principa_rel_peso">Total de peso por data</string>
+    <string name="op_menu_principa_rel_prod_promo">Tabela de produtos em promoção</string>
+    <string name="op_menu_principa_rel_rota">Resumo Visitas por Cidade</string>
+    <string name="op_menu_principa_rel_rota_cli">Resumo Visitas por Cliente</string>
+    <string name="op_menu_principa_rel_valor">Total vendas por data</string>
+    <string name="op_menu_principa_relvazio">Nenhum Resumo</string>
+    <string name="op_menu_principa_sinc_atualizarSistema">Atualizar Sistema</string>
+    <string name="op_menu_principa_sinc_enviar_pendentes">Enviar Pedidos Não Enviados</string>
+    <string name="op_menu_principa_sinc_informacoes">Informações do Sistema</string>
+    <string name="op_menu_principa_sinc_receber">Atualizar Tab.Preço</string>
+    <string name="op_menu_principa_sinc_receber_config">Receber Configuração</string>
+    <string name="op_menu_principa_sinc_teste_int">Teste de Internet</string>
+    <string name="op_menu_principa_sinc_total">Sincronizando Dados de Cadastro</string>
+    <string name="op_menu_principal"/>
+    <string name="op_rotas_cancelvis">Excluir Visita</string>
+    <string name="op_rotas_verped">Ver pedido</string>
+    <string name="pick">Pick up a Date</string>
+    <string name="pick_summary">start with ACTION_PICK</string>
+    <string name="show">Show Calendar</string>
+    <string name="show_summary">start with ACTION_VIEW</string>
+    <string name="tabela_cRecebPedido">
+        CREATE TABLE IF NOT EXISTS cRecebPedido (
+              _id  TEXT PRIMARY KEY,
+              valor double ,
+              vencimento TEXT ,
+              anoVencto INTEGER NOT NULL,
+              mesVencto INTEGER NOT NULL,
+              diaVencto INTEGER NOT NULL,
+              parcela TEXT ,
+              codCliente TEXT );
+    </string>
+    <string name="tabela_cRecebpago">
+        CREATE TABLE IF NOT EXISTS cRecebpago (
+              _id  TEXT PRIMARY KEY,
+              vrPago double ,
+              dataPgto TEXT ,
+              anoPagto INTEGER NOT NULL,
+              mesPagto INTEGER NOT NULL,
+              diaPagto INTEGER NOT NULL,
+              parcela TEXT ,
+              serie TEXT ,
+              codCliente TEXT );
+    </string>
+    <string name="tabela_clientes">
+        CREATE TABLE IF NOT EXISTS clientes (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT,
+               codigo TEXT,
+               codCliente TEXT,
+               razao TEXT,
+               fantasia TEXT,
+               cidade TEXT,
+               bairro TEXT,
+               cnpjcpf TEXT,
+               ie TEXT,
+               telefone TEXT,
+               uf TEXT,
+               cep TEXT,
+               contato TEXT,
+               tbPrecoCliente INTEGER,
+               condDePgto INTEGER ,
+               formaDePgto INTEGER  ,
+               limiteDeCredito double  ,
+               valoremaberto double  ,
+               graurisco double  ,
+               endereco TEXT ,
+               int pervisita);
+    </string>
+    <string name="tabela_condicaoDePgto">
+        CREATE TABLE IF NOT EXISTS condicaoDePgto (
+              _id INTEGER PRIMARY KEY,
+              acres double ,
+              desconto double ,
+              descricao TEXT );
+    </string>
+    <string name="tabela_config">
+       CREATE TABLE IF NOT EXISTS config (
+              _id INTEGER PRIMARY KEY ,
+              vendid INTEGER ,
+              nomeven TEXT ,
+              tabid INTEGER ,
+              servftp TEXT ,
+              usuftp TEXT ,
+              emp TEXT ,
+              descontogeral double ,
+              saldoverba   double ,
+              habilitarcusto  TEXT ,
+              senhaftp TEXT,
+              diastolerancia   double,
+              versaotabela String,
+              atu TEXT);
+    </string>
+    <string name="tabela_configserv">
+           CREATE TABLE IF NOT EXISTS configserv (
+           _id  TEXT PRIMARY KEY,
+           servidor TEXT NOT NULL,
+           login TEXT NOT NULL,
+           senha TEXT NOT NULL);
+    </string>
+    <string name="tabela_creceb">
+        CREATE TABLE IF NOT EXISTS creceb (
+              _id  TEXT PRIMARY KEY,
+              valor double ,
+              vlrreceb double ,
+              serie TEXT ,
+              vencimento TEXT ,
+              parcela TEXT ,
+              cliente TEXT ,
+              cnpj TEXT );
+    </string>
+    <string name="tabela_filtroProduto">
+        CREATE TABLE IF NOT EXISTS filtroProduto (
+                  _id INTEGER PRIMARY KEY ,
+                 descricao TEXT );
+    </string>
+    <string name="tabela_formaDePgto">
+        CREATE TABLE IF NOT EXISTS formaDePgto (
+              _id INTEGER PRIMARY KEY,
+              descricao TEXT );
+    </string>
+    <string name="tabela_histVis">
+           CREATE TABLE IF NOT EXISTS histVis (
+           _id  TEXT PRIMARY KEY,
+           idvendedor INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           data TEXT NOT NULL,
+           hora TEXT NOT NULL,
+           status TEXT,
+           nomeCli TEXT,
+           datahora TEXT NOT NULL);
+    </string>
+    <string name="tabela_itensPedido">
+        CREATE TABLE IF NOT EXISTS itensPedido (
+              _id INTEGER PRIMARY KEY AUTOINCREMENT,
+              idPedido TEXT,
+              codPrduto TEXT,
+              descricao TEXT,
+              tipoDescAcresPromo INTEGER ,
+              idDescontoQtd INTEGER ,
+              idPrecoPromo INTEGER ,
+              valorDescAcresPromo double,
+              loteEnvio TEXT,
+              codUn TEXT,
+              quantidade double,
+              qtdeconvertida double,
+              precoTb double,
+              precoMax double ,
+              precoMin double ,
+              custoGer double ,
+              preco double,
+              pesoliq double,
+              largura double,
+              espessura double,
+              comprimento double,
+              comissao double,
+              preco_st double (12,4),
+              quantcalc double);
+    </string>
+    <string name="tabela_loteEnvio">
+        CREATE TABLE IF NOT EXISTS loteEnvio (
+              _id INTEGER PRIMARY KEY AUTOINCREMENT,
+              ano INTEGER NOT NULL,
+              mes INTEGER NOT NULL,
+              dia INTEGER NOT NULL,
+              hora INTEGER NOT NULL,
+              minuto INTEGER NOT NULL,
+              segundo INTEGER NOT NULL,
+              milesimos INTEGER NOT NULL,
+              am_pm INTEGER NOT NULL,
+              loteEnvio TEXT );
+    </string>
+    <string name="tabela_operacao">
+        CREATE TABLE IF NOT EXISTS operacao (
+              _id INTEGER PRIMARY KEY,
+              descricao TEXT );
+    </string>
+    <string name="tabela_pedidos">
+        CREATE TABLE IF NOT EXISTS pedidos (
+           _id  TEXT PRIMARY KEY,
+           confirmado INTEGER ,
+           idvendedor INTEGER NOT NULL,
+           data TEXT,
+           ano INTEGER NOT NULL,
+           mes INTEGER NOT NULL,
+           dia INTEGER NOT NULL,
+           hora INTEGER NOT NULL,
+           minuto INTEGER NOT NULL,
+           segundo INTEGER NOT NULL,
+           milesimos INTEGER NOT NULL,
+           am_pm INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           tbPrecoCliente INTEGER NOT NULL,
+           idTipoDescAcresPed INTEGER NOT NULL,
+           condDePgto INTEGER NOT NULL,
+           operacao INTEGER NOT NULL ,
+           anoVencto INTEGER NOT NULL,
+           mesVencto INTEGER NOT NULL,
+           diaVencto INTEGER NOT NULL,
+           nomeCliente TEXT,
+           cnpjcpf TEXT,
+           cidade TEXT,
+           vrTotal double,
+           valorDescAcres double,
+           percDescAcres double,
+           obs TEXT,
+           loteEnvio TEXT,
+           saldoverba double,
+           limcredped double,
+           recebimento double,
+           formaDePgto INTEGER NOT NULL,
+           pesotot double NOT NULL,
+           comistot double,
+           id_visita TEXT);
+	</string>
+    <string name="tabela_pedidosbdenvia">
+        CREATE TABLE IF NOT EXISTS pedidos (
+           _id  TEXT PRIMARY KEY,
+           confirmado INTEGER ,
+           idvendedor INTEGER NOT NULL,
+           data TEXT,
+           ano INTEGER NOT NULL,
+           mes INTEGER NOT NULL,
+           dia INTEGER NOT NULL,
+           hora INTEGER NOT NULL,
+           minuto INTEGER NOT NULL,
+           segundo INTEGER NOT NULL,
+           milesimos INTEGER NOT NULL,
+           am_pm INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           tbPrecoCliente INTEGER NOT NULL,
+           idTipoDescAcresPed INTEGER NOT NULL,
+           condDePgto INTEGER NOT NULL,
+           operacao INTEGER NOT NULL ,
+           anoVencto INTEGER NOT NULL,
+           mesVencto INTEGER NOT NULL,
+           diaVencto INTEGER NOT NULL,
+           nomeCliente TEXT,
+           cnpjcpf TEXT,
+           cidade TEXT,
+           vrTotal double,
+           valorDescAcres double,
+           percDescAcres double,
+           obs TEXT,
+           loteEnvio TEXT,
+           recebimento double,
+           limcredped double,
+           formaDePgto INTEGER NOT NULL,
+           saldoverba double,
+           pesotot double,
+           comistot double,
+           id_visita TEXT);
+	</string>
+    <string name="tabela_precadastro">
+        CREATE TABLE IF NOT EXISTS precadastro (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT,
+               codigo TEXT,
+               codCliente TEXT,
+               razao TEXT,
+               fantasia TEXT,
+               cidade TEXT,
+               bairro TEXT,
+               cnpjcpf TEXT,
+               ie TEXT,
+               telefone TEXT,
+               uf TEXT,
+               cep TEXT,
+               contato TEXT,
+               tbPrecoCliente INTEGER,
+               condDePgto INTEGER ,
+               formaDePgto INTEGER  ,
+               limiteDeCredito double  ,
+               valoremaberto double  ,
+               graurisco double  ,
+               email String,
+               limitetemp double,
+               ndup int,
+               tolerancia int,
+               endereco TEXT,
+               cod_vendedor INT,
+               clianalise INT,
+               clipervisita INT,
+               data String,
+               numero TEXT,
+               clicondimerc TEXT,
+               cliformmerc TEXT,
+               clirotamerc TEXT);
+    </string>
+    <string name="tabela_precadexist">
+        CREATE TABLE IF NOT EXISTS precadexist (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT,
+               codigo TEXT,
+               codCliente TEXT,
+               razao TEXT,
+               fantasia TEXT,
+               cidade TEXT,
+               bairro TEXT,
+               cnpjcpf TEXT,
+               ie TEXT,
+               telefone TEXT,
+               uf TEXT,
+               cep TEXT,
+               contato TEXT,
+               tbPrecoCliente INTEGER,
+               condDePgto INTEGER ,
+               formaDePgto INTEGER  ,
+               limiteDeCredito double  ,
+               valoremaberto double  ,
+               graurisco double  ,
+               envi TEXT ,
+               email TEXT ,
+               endereco TEXT );
+    </string>
+    <string name="tabela_produtoInfo">
+        CREATE TABLE IF NOT EXISTS produtoInfo (
+            _id INTEGER PRIMARY KEY AUTOINCREMENT,
+            codPrduto TEXT,
+            codUn TEXT,
+             _idTabela INTEGER,
+            ordem INTEGER ,
+            qtdMin double,
+            percentual double,
+            unitario double,
+            preco double ,
+            permitefracionado TEXT,
+            precoMax double ,
+            precoMin double ,
+            custoGer double ,
+            estoque double,
+            qtdembal double,
+            qdtminfatura double,
+            precopromo double,
+            desc double,
+            fatordeconversao double );
+    </string>
+    <string name="tabela_produtos">
+        CREATE TABLE IF NOT EXISTS produtos (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT ,
+              codPrduto TEXT,
+              descricao TEXT,
+              idFiltroProduto INTEGER,
+              codUn TEXT,
+              pesoliq double);
+    </string>
+    <string name="tabela_tbPrecoCliente">
+        CREATE TABLE IF NOT EXISTS tbPrecoCliente (
+              _id INTEGER PRIMARY KEY,
+              descricao TEXT );
+    </string>
+    <string name="tabela_tbTipoDescAcresPed">
+       CREATE TABLE IF NOT EXISTS tbTipoDescAcresPed (
+              _id INTEGER PRIMARY KEY ,
+              ordem INTEGER ,
+              descricao TEXT );
+    </string>
+    <string name="tabela_visitas">
+           CREATE TABLE IF NOT EXISTS visitas (
+           _id  TEXT PRIMARY KEY,
+           idVisita TEXT,
+           idvendedor INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           nomeCli TEXT NOT NULL,
+           data TEXT NOT NULL,
+           hora TEXT NOT NULL,
+           datahora TEXT NOT NULL);
+    </string>
+    <style name="textview">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

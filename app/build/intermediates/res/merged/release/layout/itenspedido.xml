@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_marginTop="0sp"
+        android:paddingTop="0sp"
+        android:background="#AAA"
+
+        android:layout_alignParentBottom="true" android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:src="@drawable/ic_prox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="voltar"/>
+
+        <ImageButton
+            android:src="@drawable/ic_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cancelar"/>
+
+
+        <Button android:soundEffectsEnabled="true" android:id="@+id/xAplicaDescAcres"
+            android:layout_width="128sp" android:layout_height="fill_parent"
+            android:layout_gravity="right" android:text="Aplic.Acres/Desc"
+            android:textColor="#000"  android:tag="AplicaDescAcres"
+            android:onClick="AplicaDescAcres"
+            android:fitsSystemWindows="true" />
+
+        <ImageButton
+            android:src="@drawable/ic_confirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ConfirmaPedido"/>
+
+        <ImageButton
+            android:src="@drawable/ic_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="proximo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="95sp" android:layout_height="20sp"
+            android:text="Sub-Total" android:layout_gravity="right" />
+        <TextView  android:id="@+id/subTotalPedido" android:layout_width="85sp" android:layout_height="20sp"
+            android:layout_gravity="right" />
+
+        <TextView android:layout_width="65sp" android:layout_height="20sp"
+            android:text="Tot.Ped" android:layout_gravity="right" />
+        <TextView  android:id="@+id/vrTotalPedido" android:layout_width="85sp" android:layout_height="20sp"
+            android:layout_gravity="right" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="310sp"/>
+
+</LinearLayout>

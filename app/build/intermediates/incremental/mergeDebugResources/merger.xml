@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Projetos_Android\git\Mercador\app\src\main\res"/><source path="C:\Projetos_Android\git\Mercador\app\build\generated\res\rs\debug"/><source path="C:\Projetos_Android\git\Mercador\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Projetos_Android\git\Mercador\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Projetos_Android\git\Mercador\app\src\main\res"><file name="color" path="C:\Projetos_Android\git\Mercador\app\src\main\res\color\color.xml" qualifiers="" type="color"/><file name="black" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\black.xml" qualifiers="" type="drawable"/><file name="border" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\border.xml" qualifiers="" type="drawable"/><file name="btn_check_off_pressed" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\btn_check_off_pressed.png" qualifiers="" type="drawable"/><file name="btn_check_off_selected" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\btn_check_off_selected.png" qualifiers="" type="drawable"/><file name="btn_dialog_pressed" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\btn_dialog_pressed.png" qualifiers="" type="drawable"/><file name="button_shape_black" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\button_shape_black.xml" qualifiers="" type="drawable"/><file name="button_shape_blue" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\button_shape_blue.xml" qualifiers="" type="drawable"/><file name="button_shape_green" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\button_shape_green.xml" qualifiers="" type="drawable"/><file name="button_shape_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\button_shape_red.xml" qualifiers="" type="drawable"/><file name="ic_action_expand" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_action_expand.png" qualifiers="" type="drawable"/><file name="ic_action_person" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_action_person.png" qualifiers="" type="drawable"/><file name="ic_action_person_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_action_person_red.png" qualifiers="" type="drawable"/><file name="ic_action_warning" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_action_warning.png" qualifiers="" type="drawable"/><file name="ic_backup" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_backup.png" qualifiers="" type="drawable"/><file name="ic_cancelar" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_cancelar.png" qualifiers="" type="drawable"/><file name="ic_cancelar2" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_cancelar2.png" qualifiers="" type="drawable"/><file name="ic_confirma" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_confirma.png" qualifiers="" type="drawable"/><file name="ic_confirma2" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_confirma2.png" qualifiers="" type="drawable"/><file name="ic_menu" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_menu.png" qualifiers="" type="drawable"/><file name="ic_menu_add" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_menu_add.png" qualifiers="" type="drawable"/><file name="ic_menu_more" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_menu_more.png" qualifiers="" type="drawable"/><file name="ic_menu_rotate" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_menu_rotate.png" qualifiers="" type="drawable"/><file name="ic_prox" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_prox.png" qualifiers="" type="drawable"/><file name="ic_sincronizar" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_sincronizar.png" qualifiers="" type="drawable"/><file name="ic_voltar" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\ic_voltar.png" qualifiers="" type="drawable"/><file name="image" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\image.jpg" qualifiers="" type="drawable"/><file name="refresh4" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\refresh4.png" qualifiers="" type="drawable"/><file name="search" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\search.png" qualifiers="" type="drawable"/><file name="settings" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\settings.png" qualifiers="" type="drawable"/><file name="smile" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\smile.gif" qualifiers="" type="drawable"/><file name="sym_action_add" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\sym_action_add.png" qualifiers="" type="drawable"/><file name="sym_action_chat" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\sym_action_chat.png" qualifiers="" type="drawable"/><file name="sym_action_email" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\sym_action_email.png" qualifiers="" type="drawable"/><file name="toast_background_blue" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\toast_background_blue.xml" qualifiers="" type="drawable"/><file name="toast_background_green" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\toast_background_green.xml" qualifiers="" type="drawable"/><file name="toast_background_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\toast_background_red.xml" qualifiers="" type="drawable"/><file name="typeb_calendar_today" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable\typeb_calendar_today.png" qualifiers="" type="drawable"/><file name="background" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\background.png" qualifiers="hdpi-v4" type="drawable"/><file name="button_shape" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\button_shape.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_shape_black" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\button_shape_black.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_shape_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\button_shape_red.xml" qualifiers="hdpi-v4" type="drawable"/><file name="calendar_week" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\calendar_week.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_backspace" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_backspace.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_collapse" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_collapse.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_dial_pad" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_dial_pad.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_expand" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_expand.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_new" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_new.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_next_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_next_item.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_paste" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_paste.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_person" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_person.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_person_green" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_person_green.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_person_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_person_red.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_previous_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_previous_item.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_refresh.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_search2" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_search2.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_action_settings.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_balanca" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-hdpi\ic_balanca.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-ldpi\icon.png" qualifiers="ldpi-v4" type="drawable"/><file name="icon" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\icon.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_backspace" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_backspace.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_collapse" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_collapse.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_dial_pad" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_dial_pad.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_expand" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_expand.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_new" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_new.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_next_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_next_item.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_paste" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_paste.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_person" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_person.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_person_green" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_person_green.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_person_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_person_red.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_previous_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_previous_item.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_refresh.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_search2" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_search2.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_settings.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_warning" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_action_warning.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_balanca" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-mdpi\ic_balanca.png" qualifiers="mdpi-v4" type="drawable"/><file name="background" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\background.png" qualifiers="xhdpi-v4" type="drawable"/><file name="calendar_week" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\calendar_week.png" qualifiers="xhdpi-v4" type="drawable"/><file name="icon" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\icon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_backspace" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_backspace.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_collapse" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_collapse.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_dial_pad" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_dial_pad.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_expand" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_expand.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_new" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_new.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_next_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_next_item.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_paste" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_paste.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_person" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_person.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_person_green" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_person_green.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_person_red" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_person_red.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_previous_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_previous_item.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_refresh.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_search2" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_search2.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_settings.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_warning" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_action_warning.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_balanca" path="C:\Projetos_Android\git\Mercador\app\src\main\res\drawable-xhdpi\ic_balanca.png" qualifiers="xhdpi-v4" type="drawable"/><file name="alertinput" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\alertinput.xml" qualifiers="" type="layout"/><file name="alertvenddet" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\alertvenddet.xml" qualifiers="" type="layout"/><file name="aplicadescacresped" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\aplicadescacresped.xml" qualifiers="" type="layout"/><file name="aplicadescacrespromo" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\aplicadescacrespromo.xml" qualifiers="" type="layout"/><file name="backup_baixados" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\backup_baixados.xml" qualifiers="" type="layout"/><file name="bkpdb" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\bkpdb.xml" qualifiers="" type="layout"/><file name="bkrrestaura" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\bkrrestaura.xml" qualifiers="" type="layout"/><file name="cadcliente" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\cadcliente.xml" qualifiers="" type="layout"/><file name="calendar" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\calendar.xml" qualifiers="" type="layout"/><file name="calendarview" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\calendarview.xml" qualifiers="" type="layout"/><file name="confirmapedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\confirmapedido.xml" qualifiers="" type="layout"/><file name="creceberpedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\creceberpedido.xml" qualifiers="" type="layout"/><file name="enviarftp" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\enviarftp.xml" qualifiers="" type="layout"/><file name="events_rows" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\events_rows.xml" qualifiers="" type="layout"/><file name="fimpedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\fimpedido.xml" qualifiers="" type="layout"/><file name="grupo" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\grupo.xml" qualifiers="" type="layout"/><file name="incluiritem" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\incluiritem.xml" qualifiers="" type="layout"/><file name="incluiritensdopedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\incluiritensdopedido.xml" qualifiers="" type="layout"/><file name="indice_dev" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\indice_dev.xml" qualifiers="" type="layout"/><file name="infoprod" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\infoprod.xml" qualifiers="" type="layout"/><file name="inforeceb" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\inforeceb.xml" qualifiers="" type="layout"/><file name="informacoes" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\informacoes.xml" qualifiers="" type="layout"/><file name="infosenha" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\infosenha.xml" qualifiers="" type="layout"/><file name="itempedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\itempedido.xml" qualifiers="" type="layout"/><file name="itempedido_detal" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\itempedido_detal.xml" qualifiers="" type="layout"/><file name="item_ped_st" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\item_ped_st.xml" qualifiers="" type="layout"/><file name="itenspedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\itenspedido.xml" qualifiers="" type="layout"/><file name="keyboardalfa" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\keyboardalfa.xml" qualifiers="" type="layout"/><file name="keyboardalfa2" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\keyboardalfa2.xml" qualifiers="" type="layout"/><file name="linha" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\linha.xml" qualifiers="" type="layout"/><file name="listacreceber" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listacreceber.xml" qualifiers="" type="layout"/><file name="listaproduto" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listaproduto.xml" qualifiers="" type="layout"/><file name="listaprodutos" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listaprodutos.xml" qualifiers="" type="layout"/><file name="listcom" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listcom.xml" qualifiers="" type="layout"/><file name="listcom_children" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listcom_children.xml" qualifiers="" type="layout"/><file name="listcrereceberemi" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listcrereceberemi.xml" qualifiers="" type="layout"/><file name="listcrerecebvenc" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listcrerecebvenc.xml" qualifiers="" type="layout"/><file name="listitem" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listitem.xml" qualifiers="" type="layout"/><file name="listrestaure" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\listrestaure.xml" qualifiers="" type="layout"/><file name="list_cli_rota" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_cli_rota.xml" qualifiers="" type="layout"/><file name="list_group" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_group.xml" qualifiers="" type="layout"/><file name="list_header" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_header.xml" qualifiers="" type="layout"/><file name="list_item" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_item.xml" qualifiers="" type="layout"/><file name="list_itemb" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_itemb.xml" qualifiers="" type="layout"/><file name="list_itempeso" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_itempeso.xml" qualifiers="" type="layout"/><file name="list_itempesoprod" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_itempesoprod.xml" qualifiers="" type="layout"/><file name="list_item_backup" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_item_backup.xml" qualifiers="" type="layout"/><file name="list_item_cidade" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_item_cidade.xml" qualifiers="" type="layout"/><file name="list_item_cli_boav" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_item_cli_boav.xml" qualifiers="" type="layout"/><file name="list_item_comis" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_item_comis.xml" qualifiers="" type="layout"/><file name="list_metas" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_metas.xml" qualifiers="" type="layout"/><file name="list_prod_group" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\list_prod_group.xml" qualifiers="" type="layout"/><file name="localizacliente" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\localizacliente.xml" qualifiers="" type="layout"/><file name="localizarotas" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\localizarotas.xml" qualifiers="" type="layout"/><file name="lotedepedidosenviados" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\lotedepedidosenviados.xml" qualifiers="" type="layout"/><file name="main" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="managedata" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\managedata.xml" qualifiers="" type="layout"/><file name="manutbackup" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\manutbackup.xml" qualifiers="" type="layout"/><file name="metas" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\metas.xml" qualifiers="" type="layout"/><file name="notes_row" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\notes_row.xml" qualifiers="" type="layout"/><file name="pedido" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\pedido.xml" qualifiers="" type="layout"/><file name="pedidosnenviados" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\pedidosnenviados.xml" qualifiers="" type="layout"/><file name="pedidovenda" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\pedidovenda.xml" qualifiers="" type="layout"/><file name="precoqtdelist" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\precoqtdelist.xml" qualifiers="" type="layout"/><file name="qtd_peso" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\qtd_peso.xml" qualifiers="" type="layout"/><file name="quantpaudeoleo" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\quantpaudeoleo.xml" qualifiers="" type="layout"/><file name="relcomis" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\relcomis.xml" qualifiers="" type="layout"/><file name="relpeso" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\relpeso.xml" qualifiers="" type="layout"/><file name="relpromo" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\relpromo.xml" qualifiers="" type="layout"/><file name="relviscidade" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\relviscidade.xml" qualifiers="" type="layout"/><file name="row" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\row.xml" qualifiers="" type="layout"/><file name="selecionarfiltroproduto" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\selecionarfiltroproduto.xml" qualifiers="" type="layout"/><file name="sincconfig" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\sincconfig.xml" qualifiers="" type="layout"/><file name="sincdrive" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\sincdrive.xml" qualifiers="" type="layout"/><file name="sincdriveenviar" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\sincdriveenviar.xml" qualifiers="" type="layout"/><file name="sqlexport" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\sqlexport.xml" qualifiers="" type="layout"/><file name="tabela" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\tabela.xml" qualifiers="" type="layout"/><file name="toast_layout" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\toast_layout.xml" qualifiers="" type="layout"/><file name="velocimetro" path="C:\Projetos_Android\git\Mercador\app\src\main\res\layout\velocimetro.xml" qualifiers="" type="layout"/><file name="ftpmenu" path="C:\Projetos_Android\git\Mercador\app\src\main\res\menu\ftpmenu.xml" qualifiers="" type="menu"/><file name="main" path="C:\Projetos_Android\git\Mercador\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="menu" path="C:\Projetos_Android\git\Mercador\app\src\main\res\menu\menu.xml" qualifiers="" type="menu"/><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values\arrays.xml" qualifiers=""><array name="op_alerta_sai">
+        <item>@string/op_alerta_editar_item</item>
+        <item>@string/op_alerta_excluir_item</item>
+    </array><array name="op_menu_opcoes_clientes">
+        <item>@string/op_menu_op_clientes_info_finan</item>
+    </array><array name="op_at_cliente">
+        <item>@string/op_atend_cliente_sim</item>
+        <item>@string/op_atend_cliente_nao</item>
+
+    </array><array name="op_menu_principalCliente">
+        <item>@string/op_menu_principa_pre_cadastro</item>
+        <item>@string/op_menu_principa_consultar_cliente</item>
+        <item>@string/op_menu_principa_consultar_pedidos_cliente</item>
+    </array><array name="op_menu_principalLozalizar">
+        <item>@string/op_menu_principa_localizar_cliente</item>
+        <item>@string/op_menu_principa_localizarRota_cliente</item>
+        <item>@string/op_menu_principa_GereneciarRotas_cliente</item>
+    </array><array name="op_alerta_sim_nao">
+        <item>@string/op_alerta_sim</item>
+        <item>@string/op_alerta_nao</item>
+    </array><array name="op_menu_preco">
+        <item>@string/op_menu_principa_rel_valor</item>
+    </array><array name="op_alerta_editar_excluir_item">
+        <item>@string/op_alerta_editar_item</item>
+        <item>@string/op_alerta_excluir_item</item>
+    </array><array name="op_menu_principalSinc">
+        <item>@string/op_menu_principa_sinc_enviar_pendentes</item>
+        <item>@string/op_menu_principa_sinc_total</item>
+        <item>@string/op_menu_principa_sinc_receber_config</item>
+    </array><array name="op_menu_principalAtividades">
+        <item>@string/op_menu_principa_atender_cliente</item>
+    </array><array name="op_menu_relRota">
+
+        <item>@string/op_menu_principa_rel_rota</item>
+        <item>@string/op_menu_principa_rel_rota_cli</item>
+    </array><array name="op_menu_principalExtra">
+
+        <item>@string/op_menu_principa_sinc_teste_int</item>
+        <item>@string/op_menu_principa_sinc_atualizarSistema</item>
+
+        <item>@string/op_menu_principa_sinc_informacoes</item>
+
+    </array><array name="op_menu_relvazio">
+
+        <item>@string/op_menu_principa_relvazio</item>
+
+    </array><array name="op_menu_consulta_cliente">
+        <item>@string/op_menu_cliente_sair</item>
+    </array><array name="op_file_backup">
+        <item>@string/op_enviar</item>
+        <item>@string/op_deletar</item>
+    </array><array name="op_menu_rel">
+
+        <item>@string/op_menu_principa_rel_peso</item>
+
+    </array><array name="op_menu_cliente">
+        <item>@string/op_menu_cliente_salvar</item>
+        <item>@string/op_menu_cliente_sair</item>
+    </array><array name="op_menu_sel">
+        <item>@string/op_menu_principa_pedidos_n_enviados</item>
+        <item>@string/op_menu_principa_lotes_pedido</item>
+    </array><array name="op_menu_atu_data">
+        <item>@string/op_menu_principa_atu_data</item>
+    </array><array name="op_menu_comissao">
+
+        <item>@string/op_menu_principa_rel_comis</item>
+
+    </array><array name="op_menu_principalPedidos">
+        <item>@string/op_menu_principa_pedidos_n_enviados</item>
+        <item>@string/op_menu_principa_lotes_pedido</item>
+    </array><array name="op_menu_pedido">
+        <item>@string/op_menu_pedido_salvar</item>
+        <item>@string/op_menu_pedido_incluiritem</item>
+        <item>@string/op_menu_pedido_excluir</item>
+        <item>@string/op_menu_pedido_sair</item>
+        <item>@string/op_menu_pedido_creceber</item>
+
+    </array><array name="op_rotas">
+        <item>@string/op_rotas_verped</item>
+        <item>@string/op_rotas_cancelvis</item>
+
+    </array><array name="op_menu_precoRel">
+        <item>@string/op_menu_principa_atu_comis</item>
+    </array></file><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values\integer.xml" qualifiers=""><integer name="google_play_services_version">4132500</integer></file><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values\strings.xml" qualifiers=""><string name="op_menu_principa_rel_rota_cli">Resumo Visitas por Cliente</string><string name="atualiza_bd_vs2_31">
+        ALTER TABLE precadastro ADD COLUMN cliformmerc  TEXT;
+     </string><string name="atualiza_bd_vs2_30">
+        ALTER TABLE precadastro ADD COLUMN clicondimerc  TEXT;
+     </string><string name="dialog_area_hint"/><string name="about_summary">Android Calendar View Demo V0.5.0</string><string name="atualiza_bd_vs2_35">
+        ALTER TABLE precadastro ADD COLUMN data  String;
+     </string><string name="atualiza_bd_vs2_34">
+        ALTER TABLE clientes ADD COLUMN numero  TEXT;
+     </string><string name="tabela_tbTipoDescAcresPed">
+       CREATE TABLE IF NOT EXISTS tbTipoDescAcresPed (
+              _id INTEGER PRIMARY KEY ,
+              ordem INTEGER ,
+              descricao TEXT );
+    </string><string name="atualiza_bd_vs2_33">
+        ALTER TABLE precadastro ADD COLUMN numero  TEXT;
+     </string><string name="atualiza_bd_vs2_32">
+        ALTER TABLE precadastro ADD COLUMN clirotamerc  TEXT;
+     </string><string name="op_menu_principa_rel_rota">Resumo Visitas por Cidade</string><string name="op_menu_principa_relvazio">Nenhum Resumo</string><string name="op_menu_principa_sinc_total">Sincronizando Dados de Cadastro</string><string name="pick">Pick up a Date</string><string name="atualiza_vsteste">
+        ALTER TABLE pedidos ADD COLUMN testando  double;
+    </string><string name="indice_dev">
+    CREATE TABLE IF NOT EXISTS indice_dev ( _id INTEGER PRIMARY KEY AUTOINCREMENT,
+          produto text,
+          cliente text ,
+          devolucao double,
+          indice double,
+          venda double);
+    </string><string name="op_atend_cliente_sim">Prosseguir</string><string name="tabela_precadexist">
+        CREATE TABLE IF NOT EXISTS precadexist (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT,
+               codigo TEXT,
+               codCliente TEXT,
+               razao TEXT,
+               fantasia TEXT,
+               cidade TEXT,
+               bairro TEXT,
+               cnpjcpf TEXT,
+               ie TEXT,
+               telefone TEXT,
+               uf TEXT,
+               cep TEXT,
+               contato TEXT,
+               tbPrecoCliente INTEGER,
+               condDePgto INTEGER ,
+               formaDePgto INTEGER  ,
+               limiteDeCredito double  ,
+               valoremaberto double  ,
+               graurisco double  ,
+               envi TEXT ,
+               email TEXT ,
+               endereco TEXT );
+    </string><string name="tabela_produtos">
+        CREATE TABLE IF NOT EXISTS produtos (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT ,
+              codPrduto TEXT,
+              descricao TEXT,
+              idFiltroProduto INTEGER,
+              codUn TEXT,
+              pesoliq double);
+    </string><string name="op_menu_principa_atu_data">Atualizar Datas</string><string name="op_menu_pedido_creceber">Info. Financeira</string><string name="tabela_config">
+       CREATE TABLE IF NOT EXISTS config (
+              _id INTEGER PRIMARY KEY ,
+              vendid INTEGER ,
+              nomeven TEXT ,
+              tabid INTEGER ,
+              servftp TEXT ,
+              usuftp TEXT ,
+              emp TEXT ,
+              descontogeral double ,
+              saldoverba   double ,
+              habilitarcusto  TEXT ,
+              senhaftp TEXT,
+              diastolerancia   double,
+              versaotabela String,
+              atu TEXT);
+    </string><string name="op_menu_pedido_salvar">Salvar</string><string name="op_alerta_nao">Não</string><string name="op_menu_principa_hist_alt_cadastro">Historico de Alteração de Cadastro</string><string name="tabela_loteEnvio">
+        CREATE TABLE IF NOT EXISTS loteEnvio (
+              _id INTEGER PRIMARY KEY AUTOINCREMENT,
+              ano INTEGER NOT NULL,
+              mes INTEGER NOT NULL,
+              dia INTEGER NOT NULL,
+              hora INTEGER NOT NULL,
+              minuto INTEGER NOT NULL,
+              segundo INTEGER NOT NULL,
+              milesimos INTEGER NOT NULL,
+              am_pm INTEGER NOT NULL,
+              loteEnvio TEXT );
+    </string><string name="op_menu_principa_atu_comis">Atualizar Comissoes</string><string name="op_menu_cliente_sair">Sair</string><string name="op_menu_principa_sinc_receber">Atualizar Tab.Preço</string><string name="op_menu_principa_sinc_atualizarSistema">Atualizar Sistema</string><string name="op_menu_pedido_aplicadescacres">Aplicar Desconto</string><string name="show_summary">start with ACTION_VIEW</string><string name="tabela_visitas">
+           CREATE TABLE IF NOT EXISTS visitas (
+           _id  TEXT PRIMARY KEY,
+           idVisita TEXT,
+           idvendedor INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           nomeCli TEXT NOT NULL,
+           data TEXT NOT NULL,
+           hora TEXT NOT NULL,
+           datahora TEXT NOT NULL);
+    </string><string name="atualiza_bd_vs2_13">
+        ALTER TABLE pedidos ADD COLUMN limcredped  double;
+    </string><string name="op_menu_principa_consultar_cliente">Dados do Cliente</string><string name="atualiza_bd_vs2_12">
+        ALTER TABLE pedidos ADD COLUMN recebimento  double;
+    </string><string name="atualiza_bd_vs2_11">
+        ALTER TABLE clientes ADD COLUMN pervisita  Integer;
+    </string><string name="atualiza_bd_vs2_10">
+        ALTER TABLE config ADD COLUMN diastolerancia  Integer;
+    </string><string name="atualiza_bd_vs2_17">
+        ALTER TABLE pedidos ADD COLUMN id_visita  TEXT;
+    </string><string name="atualiza_bd_vs2_16">
+        ALTER TABLE pedidos ADD COLUMN data  string;
+    </string><string name="op_rotas_cancelvis">Excluir Visita</string><string name="atualiza_bd_vs2_15">
+        ALTER TABLE itensPedido ADD COLUMN pesoliq  double;
+    </string><string name="atualiza_bd_vs2_14">
+        ALTER TABLE pedidos ADD COLUMN pesotot  double;
+    </string><string name="menu_add">menu_add</string><string name="tabela_configserv">
+           CREATE TABLE IF NOT EXISTS configserv (
+           _id  TEXT PRIMARY KEY,
+           servidor TEXT NOT NULL,
+           login TEXT NOT NULL,
+           senha TEXT NOT NULL);
+    </string><string name="dialog_area"/><string name="atualiza_bd_vs2_19">
+        ALTER TABLE itensPedido ADD COLUMN largura  double;
+    </string><string name="atualiza_bd_vs2_18">
+        ALTER TABLE visitas ADD COLUMN  idVisita   TEXT;
+    </string><string name="op_menu_principa_localizarRota_cliente">Localizar por Rota</string><string name="op_menu_principa_sinc_informacoes">Informações do Sistema</string><string name="op_menu_pedido_excluir">Excluir Pedido</string><string name="op_menu_principa_sinc_receber_config">Receber Configuração</string><string name="about">About</string><string name="atualiza_bd_vs2_20">
+        ALTER TABLE itensPedido ADD COLUMN espessura  double;
+    </string><string name="tabela_pedidos">
+        CREATE TABLE IF NOT EXISTS pedidos (
+           _id  TEXT PRIMARY KEY,
+           confirmado INTEGER ,
+           idvendedor INTEGER NOT NULL,
+           data TEXT,
+           ano INTEGER NOT NULL,
+           mes INTEGER NOT NULL,
+           dia INTEGER NOT NULL,
+           hora INTEGER NOT NULL,
+           minuto INTEGER NOT NULL,
+           segundo INTEGER NOT NULL,
+           milesimos INTEGER NOT NULL,
+           am_pm INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           tbPrecoCliente INTEGER NOT NULL,
+           idTipoDescAcresPed INTEGER NOT NULL,
+           condDePgto INTEGER NOT NULL,
+           operacao INTEGER NOT NULL ,
+           anoVencto INTEGER NOT NULL,
+           mesVencto INTEGER NOT NULL,
+           diaVencto INTEGER NOT NULL,
+           nomeCliente TEXT,
+           cnpjcpf TEXT,
+           cidade TEXT,
+           vrTotal double,
+           valorDescAcres double,
+           percDescAcres double,
+           obs TEXT,
+           loteEnvio TEXT,
+           saldoverba double,
+           limcredped double,
+           recebimento double,
+           formaDePgto INTEGER NOT NULL,
+           pesotot double NOT NULL,
+           comistot double,
+           id_visita TEXT);
+	</string><string name="op_atend_cliente">1 pendência de pagamento</string><string name="tabela_clientes">
+        CREATE TABLE IF NOT EXISTS clientes (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT,
+               codigo TEXT,
+               codCliente TEXT,
+               razao TEXT,
+               fantasia TEXT,
+               cidade TEXT,
+               bairro TEXT,
+               cnpjcpf TEXT,
+               ie TEXT,
+               telefone TEXT,
+               uf TEXT,
+               cep TEXT,
+               contato TEXT,
+               tbPrecoCliente INTEGER,
+               condDePgto INTEGER ,
+               formaDePgto INTEGER  ,
+               limiteDeCredito double  ,
+               valoremaberto double  ,
+               graurisco double  ,
+               endereco TEXT ,
+               int pervisita);
+    </string><string name="app_name">Mercador</string><string name="atualiza_bd_vs2_24">
+        ALTER TABLE pedidos ADD COLUMN comistot  double;
+    </string><string name="app_label">Madereira Carmopolis</string><string name="atualiza_bd_vs2_23">
+        ALTER TABLE itensPedido ADD COLUMN  comissao   double;
+    </string><string name="atualiza_bd_vs2_22">
+        ALTER TABLE itensPedido ADD COLUMN  quantcalc   double;
+    </string><string name="op_enviar">Enviar Backup</string><string name="atualiza_bd_vs2_21">
+        ALTER TABLE itensPedido ADD COLUMN  comprimento   double;
+    </string><string name="atualiza_bd_vs2_28">
+        ALTER TABLE precadastro ADD COLUMN data  String;
+     </string><string name="atualiza_bd_vs2_27">
+        ALTER TABLE precadastro ADD COLUMN clianalise  Integer;
+    </string><string name="atualiza_bd_vs2_26">
+        ALTER TABLE precadastro ADD COLUMN cod_vendedor  Integer;
+    </string><string name="show">Show Calendar</string><string name="atualiza_bd_vs2_25">
+        ALTER TABLE itensPedido ADD COLUMN preco_st double(12,4) ;
+    </string><string name="tabela_formaDePgto">
+        CREATE TABLE IF NOT EXISTS formaDePgto (
+              _id INTEGER PRIMARY KEY,
+              descricao TEXT );
+    </string><string name="tabela_pedidosbdenvia">
+        CREATE TABLE IF NOT EXISTS pedidos (
+           _id  TEXT PRIMARY KEY,
+           confirmado INTEGER ,
+           idvendedor INTEGER NOT NULL,
+           data TEXT,
+           ano INTEGER NOT NULL,
+           mes INTEGER NOT NULL,
+           dia INTEGER NOT NULL,
+           hora INTEGER NOT NULL,
+           minuto INTEGER NOT NULL,
+           segundo INTEGER NOT NULL,
+           milesimos INTEGER NOT NULL,
+           am_pm INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           tbPrecoCliente INTEGER NOT NULL,
+           idTipoDescAcresPed INTEGER NOT NULL,
+           condDePgto INTEGER NOT NULL,
+           operacao INTEGER NOT NULL ,
+           anoVencto INTEGER NOT NULL,
+           mesVencto INTEGER NOT NULL,
+           diaVencto INTEGER NOT NULL,
+           nomeCliente TEXT,
+           cnpjcpf TEXT,
+           cidade TEXT,
+           vrTotal double,
+           valorDescAcres double,
+           percDescAcres double,
+           obs TEXT,
+           loteEnvio TEXT,
+           recebimento double,
+           limcredped double,
+           formaDePgto INTEGER NOT NULL,
+           saldoverba double,
+           pesotot double,
+           comistot double,
+           id_visita TEXT);
+	</string><string name="atualiza_bd_vs2_29">
+        ALTER TABLE precadastro ADD COLUMN clipervisita  Integer;
+     </string><string name="op_menu_principa_rel_prod_promo">Tabela de produtos em promoção</string><string name="op_menu_principa_sinc_teste_int">Teste de Internet</string><string name="dialog_code_hint"/><string name="op_menu_op_clientes_info_finan">Info. Financeiras</string><string name="op_menu_pedido_incluiritem">Adicionar Itens ao Pedido</string><string name="op_menu_principa_lotes_pedido">Lotes de Pedidos Env.</string><string name="header">header</string><string name="op_menu_principa_ger_dados">Gerenciar Dados</string><string name="tabela_operacao">
+        CREATE TABLE IF NOT EXISTS operacao (
+              _id INTEGER PRIMARY KEY,
+              descricao TEXT );
+    </string><string name="op_menu_principa_pre_cadastro">Efetuar Pré Cadastro</string><string name="tabela_tbPrecoCliente">
+        CREATE TABLE IF NOT EXISTS tbPrecoCliente (
+              _id INTEGER PRIMARY KEY,
+              descricao TEXT );
+    </string><string name="op_deletar">Deletar</string><string name="tabela_cRecebpago">
+        CREATE TABLE IF NOT EXISTS cRecebpago (
+              _id  TEXT PRIMARY KEY,
+              vrPago double ,
+              dataPgto TEXT ,
+              anoPagto INTEGER NOT NULL,
+              mesPagto INTEGER NOT NULL,
+              diaPagto INTEGER NOT NULL,
+              parcela TEXT ,
+              serie TEXT ,
+              codCliente TEXT );
+    </string><string name="tabela_itensPedido">
+        CREATE TABLE IF NOT EXISTS itensPedido (
+              _id INTEGER PRIMARY KEY AUTOINCREMENT,
+              idPedido TEXT,
+              codPrduto TEXT,
+              descricao TEXT,
+              tipoDescAcresPromo INTEGER ,
+              idDescontoQtd INTEGER ,
+              idPrecoPromo INTEGER ,
+              valorDescAcresPromo double,
+              loteEnvio TEXT,
+              codUn TEXT,
+              quantidade double,
+              qtdeconvertida double,
+              precoTb double,
+              precoMax double ,
+              precoMin double ,
+              custoGer double ,
+              preco double,
+              pesoliq double,
+              largura double,
+              espessura double,
+              comprimento double,
+              comissao double,
+              preco_st double (12,4),
+              quantcalc double);
+    </string><string name="hint">Hint: touch the first or last day of month to move to previous or next month.</string><string name="op_menu_cliente_salvar">Salvar</string><string name="tabela_filtroProduto">
+        CREATE TABLE IF NOT EXISTS filtroProduto (
+                  _id INTEGER PRIMARY KEY ,
+                 descricao TEXT );
+    </string><string name="op_menu_principal"/><string name="tabela_condicaoDePgto">
+        CREATE TABLE IF NOT EXISTS condicaoDePgto (
+              _id INTEGER PRIMARY KEY,
+              acres double ,
+              desconto double ,
+              descricao TEXT );
+    </string><string name="op_alerta_sim">Sim</string><string name="tabela_cRecebPedido">
+        CREATE TABLE IF NOT EXISTS cRecebPedido (
+              _id  TEXT PRIMARY KEY,
+              valor double ,
+              vencimento TEXT ,
+              anoVencto INTEGER NOT NULL,
+              mesVencto INTEGER NOT NULL,
+              diaVencto INTEGER NOT NULL,
+              parcela TEXT ,
+              codCliente TEXT );
+    </string><string name="op_menu_principa_sinc_enviar_pendentes">Enviar Pedidos Não Enviados</string><string name="op_adicionais">Opcoes Adicionais</string><string name="tabela_creceb">
+        CREATE TABLE IF NOT EXISTS creceb (
+              _id  TEXT PRIMARY KEY,
+              valor double ,
+              vlrreceb double ,
+              serie TEXT ,
+              vencimento TEXT ,
+              parcela TEXT ,
+              cliente TEXT ,
+              cnpj TEXT );
+    </string><string name="op_menu_principa_GereneciarRotas_cliente">Ultimas Visitas</string><string name="op_atend_cliente_nao">Voltar</string><string name="op_menu_principa_rel_comis">Total de comissão por data</string><string name="configs_atalhos">s</string><string name="atualiza_bd_vs2_2">
+        CREATE INDEX idxprodutos_chave ON produtos (codPrduto, codUn ASC);
+    </string><string name="atualiza_bd_vs2_1">
+        ALTER TABLE condicaoDePgto ADD COLUMN nrvenc  INTEGER;
+    </string><string name="op_menu_pedido_sair">Sair</string><string name="atualiza_bd_vs2_4">
+        CREATE INDEX idxprecadastro_chave ON precadastro (codigo ASC);
+    </string><string name="atualiza_bd_vs2_3">
+        CREATE INDEX idxclientes_chave ON clientes (codigo ASC);
+    </string><string name="op_rotas_verped">Ver pedido</string><string name="atualiza_bd_vs2_6">
+        CREATE INDEX idxcreceb_chave ON creceb (_id ASC);
+    </string><string name="op_alerta_editar_item">Editar Item</string><string name="op_alerta_excluir_item">Excluir Item</string><string name="atualiza_bd_vs2_5">
+        CREATE INDEX idxprodutoInfo_chave ON produtoInfo (codPrduto,_idTabela,codUn,ordem ASC);
+    </string><string name="atualiza_bd_vs2_8">
+        ALTER TABLE precadastro ADD COLUMN email  String;
+    </string><string name="atualiza_bd_vs2_7">
+        ALTER TABLE pedidos ADD COLUMN saldoverba  double;
+    </string><string name="pick_summary">start with ACTION_PICK</string><string name="op_menu_principa_atender_cliente">Atender Cliente</string><string name="op_menu_principa_consultar_pedidos_cliente">Pedidos do Cliente</string><string name="tabela_histVis">
+           CREATE TABLE IF NOT EXISTS histVis (
+           _id  TEXT PRIMARY KEY,
+           idvendedor INTEGER NOT NULL,
+           cliente TEXT NOT NULL,
+           data TEXT NOT NULL,
+           hora TEXT NOT NULL,
+           status TEXT,
+           nomeCli TEXT,
+           datahora TEXT NOT NULL);
+    </string><string name="atualiza_bd_vs2_9">
+        ALTER TABLE condicaoDePgto ADD COLUMN qtdparcela  Integer;
+    </string><string name="hello">Mercado vs. Beta</string><string name="op_menu_principa_rel_peso">Total de peso por data</string><string name="op_menu_principa_rel_valor">Total vendas por data</string><string name="action_settings">Settings</string><string name="op_menu_principa_pedidos_n_enviados">Pedidos não Enviados</string><string name="configs_label">Configurações</string><string name="tabela_produtoInfo">
+        CREATE TABLE IF NOT EXISTS produtoInfo (
+            _id INTEGER PRIMARY KEY AUTOINCREMENT,
+            codPrduto TEXT,
+            codUn TEXT,
+             _idTabela INTEGER,
+            ordem INTEGER ,
+            qtdMin double,
+            percentual double,
+            unitario double,
+            preco double ,
+            permitefracionado TEXT,
+            precoMax double ,
+            precoMin double ,
+            custoGer double ,
+            estoque double,
+            qtdembal double,
+            qdtminfatura double,
+            precopromo double,
+            desc double,
+            fatordeconversao double );
+    </string><string name="op_menu_principa_localizar_cliente">Localizar Cliente</string><string name="tabela_precadastro">
+        CREATE TABLE IF NOT EXISTS precadastro (
+               _id INTEGER PRIMARY KEY AUTOINCREMENT,
+               codigo TEXT,
+               codCliente TEXT,
+               razao TEXT,
+               fantasia TEXT,
+               cidade TEXT,
+               bairro TEXT,
+               cnpjcpf TEXT,
+               ie TEXT,
+               telefone TEXT,
+               uf TEXT,
+               cep TEXT,
+               contato TEXT,
+               tbPrecoCliente INTEGER,
+               condDePgto INTEGER ,
+               formaDePgto INTEGER  ,
+               limiteDeCredito double  ,
+               valoremaberto double  ,
+               graurisco double  ,
+               email String,
+               limitetemp double,
+               ndup int,
+               tolerancia int,
+               endereco TEXT,
+               cod_vendedor INT,
+               clianalise INT,
+               clipervisita INT,
+               data String,
+               numero TEXT,
+               clicondimerc TEXT,
+               cliformmerc TEXT,
+               clirotamerc TEXT);
+    </string><string name="dialog_code"/></file><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values\styles.xml" qualifiers=""><style name="textview">
+        <item name="android:textSize">14sp</item>
+    </style></file><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values-hdpi\dimens.xml" qualifiers="hdpi-v4"><dimen name="cell_text_size">26px</dimen><dimen name="cell_width">58px</dimen><dimen name="cell_margin_top">92px</dimen><dimen name="cell_margin_left">39px</dimen><dimen name="week_top_margin">74px</dimen><dimen name="cell_heigh">53px</dimen><dimen name="week_left_margin">40px</dimen></file><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values-ldpi\dimens.xml" qualifiers="ldpi-v4"><dimen name="cell_text_size">13.0px</dimen><dimen name="cell_margin_left">19.5px</dimen><dimen name="week_left_margin">20px</dimen><dimen name="cell_width">29px</dimen><dimen name="cell_heigh">26.5px</dimen><dimen name="cell_margin_top">46px</dimen><dimen name="week_top_margin">37px</dimen></file><file path="C:\Projetos_Android\git\Mercador\app\src\main\res\values-mdpi\dimens.xml" qualifiers="mdpi-v4"><dimen name="cell_heigh">35.3px</dimen><dimen name="cell_margin_top">61.3px</dimen><dimen name="cell_text_size">17.3px</dimen><dimen name="cell_margin_left">26px</dimen><dimen name="week_top_margin">49.3px</dimen><dimen name="week_left_margin">26.3px</dimen><dimen name="cell_width">38.3px</dimen></file></source><source path="C:\Projetos_Android\git\Mercador\app\build\generated\res\rs\debug"/><source path="C:\Projetos_Android\git\Mercador\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Projetos_Android\git\Mercador\app\src\debug\res"/></dataSet><mergedItems/></merger>

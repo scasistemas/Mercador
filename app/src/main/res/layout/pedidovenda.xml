@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true" android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:background="#FFF"
+            >
+            <Button
+                android:id="@+id/tabCondVenda"
+                android:text=" C.Venda "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/tabItens"
+                android:text="     Itens     "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/tabObsFin"
+                android:text="Obs/Info.$"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:src="@drawable/ic_action_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="opcoesDoMenu"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true" android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:background="#FFF"
+            >
+
+            <TextView android:layout_width="0dp" android:layout_height="20dp"
+                android:id="@+id/txtdesc"
+                android:text="Desconto"    android:gravity="center_vertical"
+                android:textColor="#00F"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                />
+
+            <Button android:layout_width="0dp" android:layout_height="fill_parent"
+                android:id="@+id/tit_indidev"
+                android:text="Indice Dev."
+                android:textColor="#00F"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:onClick="ir_indice"
+                />
+
+            <TextView android:layout_width="0dp" android:layout_height="35dp"
+                android:text="Sub-Total"
+                android:textColor="#00F"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+
+                />
+            <TextView android:layout_width="0dp" android:layout_height="35dp"
+                android:text="Total do Pedido" android:layout_gravity="left"
+                android:textColor="#00F"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="25dp"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:background="#FFF"
+            >
+
+
+            <TextView  android:id="@+id/desconto" android:layout_width="0dp" android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:textColor="#00F"
+                android:layout_weight="1"
+                />
+
+            <TextView  android:id="@+id/txt_inddev" android:layout_width="0dp" android:layout_height="20dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textColor="#00F"
+                android:onClick="ir_indice"
+                android:clickable="true"
+                />
+
+            <TextView  android:id="@+id/subTotalPedido" android:layout_width="0dp" android:layout_height="20dp"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textColor="#00F"
+                />
+
+
+            <TextView  android:id="@+id/vrTotalPedido" android:layout_width="0dp" android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:textColor="#00F"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:gravity="right"
+
+                />
+        </LinearLayout>
+
+
+        <TabWidget android:id="@android:id/tabs"
+            android:layout_width="fill_parent" android:layout_height="0sp"
+            />
+        <FrameLayout android:id="@android:id/tabcontent"
+            android:padding="5dp"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@+id/layout_tab_principal"
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView android:id="@+id/cliente"
+                    android:gravity="right"
+                    android:background="#d3d3d3"
+                    android:textColor="#000"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:orientation="horizontal" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:paddingLeft="5dp">
+
+                    <TextView
+                        android:text="Valor em Aberto"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:paddingTop="0sp"
+                        android:textColor="#ffd1d1d1"
+                        />
+
+
+                    <TextView  android:text="limite de Crédito" android:id="@+id/txtlimitec"
+                        android:gravity="right" android:textColor="#ffd1d1d1"
+                        android:layout_width="150sp" android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:paddingLeft="5dp">
+
+                    <TextView
+                        android:id="@+id/btlimitecredito"
+                        android:text="$"
+                        android:background="#d3d3d3"
+                        android:textColor="#000"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0sp"
+                        android:paddingTop="0sp"
+                        />
+
+
+                    <TextView android:id="@+id/limitecredito"
+                        android:gravity="right"
+                        android:background="#d3d3d3"
+                        android:textColor="#000"
+                        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Operação" android:layout_gravity="right" android:textColor="#ffd1d1d1" />
+                <Spinner
+                    android:id="@+id/operacao"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_centerInParent="true"
+                    />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Condição de Pagamento" android:layout_gravity="right" android:textColor="#ffd1d1d1" />
+                <Spinner
+                    android:id="@+id/condpag"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    />
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Forma de Pagamento" android:layout_gravity="right" android:textColor="#ffd1d1d1"/>
+                <Spinner
+                    android:id="@+id/formapag"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout android:id="@+id/layout_tab_endereco"
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/layout_tab_condvenda"
+                android:orientation="vertical" android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <!-- <TextView android:id="@+id/vencto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""/>   -->
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ListView
+                        android:id="@+id/listCReceber"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+                <TextView android:id="@+id/txrec" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="left" android:textColor="#ffd1d1d1"
+                    android:clickable="true" android:onClick="passarvlr1"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText android:id="@+id/recebido"
+                        android:layout_width="120dp" android:layout_height="wrap_content" android:layout_gravity="right"
+                        android:inputType="numberDecimal"
+                        android:enabled="false"
+                        />
+
+                    <Button
+                        android:id="@+id/alterar"
+                        android:text="Alterar Valor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="alterarlim"
+                        android:visibility="gone"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView android:id="@+id/txt_limiteminimo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_gravity="left" android:textColor="#ffd1d1d1" android:text="Valor Minimo para Venda:"
+                        android:visibility="gone"/>
+                    />
+                </LinearLayout>
+
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Observação" android:layout_gravity="right" android:textColor="#ffd1d1d1"/>
+                <EditText android:id="@+id/obs"
+                    android:layout_width="fill_parent" android:layout_height="250dp"
+                    android:layout_weight="2" android:gravity="top" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
+

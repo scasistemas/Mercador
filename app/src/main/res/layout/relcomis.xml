@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_alignParentBottom="true" android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:paddingTop="0sp"
+        android:background="#FFF"
+        android:orientation="horizontal"
+        >
+        <TextView android:layout_width="fill_parent" android:layout_height="20sp"
+            android:text=" Resumo por peso" android:layout_gravity="right"
+            android:textColor="#00F"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/datain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Data ini."
+            android:textSize="12dp"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/datafim"
+            android:textSize="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Data fin." />
+        <Button
+            android:id="@+id/searchButton"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pesqLista"
+            android:drawableStart="@drawable/ic_action_search2"
+            />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:drawableStart="@drawable/ic_action_backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="limpa"
+            />
+
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="350sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_alignParentBottom="true" android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:paddingTop="0sp"
+        android:background="#FFF"
+        android:orientation="horizontal"
+        >
+
+
+
+
+        <Button
+            android:text="   Sair   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sair"/>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true" android:gravity="center_vertical"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:background="#FFF"
+            android:orientation="horizontal"
+
+            >
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                android:text="Vlr-Comis:" android:layout_gravity="right"
+                android:textColor="#00F"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView android:layout_width="wrap_content" android:layout_height="fill_parent"
+                android:id="@+id/txPeso"
+                android:layout_gravity="left"
+                android:textColor="#00F"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true" android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:background="#FFF"
+            android:orientation="vertical"
+            >
+            <TextView android:layout_width="107sp" android:layout_height="20sp"
+                android:id="@+id/totLote" android:layout_gravity="left"
+                android:textColor="#00F"
+                android:layout_alignParentRight="true"
+                />
+            <TextView android:layout_width="107sp" android:layout_height="20sp"
+                android:id="@+id/toSaldTroc"
+                android:layout_gravity="left"
+                android:textColor="#00F"
+                android:layout_alignParentRight="true"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

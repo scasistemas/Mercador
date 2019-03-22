@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="6dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingLeft="5sp" android:background="#bababa">
+
+        <TextView android:layout_width="100dp" android:layout_height="20dp"
+            android:id="@+id/txtpeso"
+            android:text="Detalhes"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liedtx2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        >
+
+        <TextView android:layout_width="100dp" android:layout_height="20dp"
+            android:text="Unidade"
+            android:textColor="#00F"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView android:layout_width="100dp" android:layout_height="20dp"
+            android:text="Qtd."
+            android:textColor="#00F"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView android:layout_width="100dp" android:layout_height="20dp"
+            android:text="PESO"
+            android:textColor="#00F"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liedtx1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <Spinner
+            android:id="@+id/un"
+            android:layout_width="110sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <EditText android:layout_width="100dp" android:layout_height="wrap_content"
+            android:id="@+id/edtxqtd"
+            android:textColor="#2f6699"
+            android:textStyle="italic"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="1dp"
+            />
+        <EditText android:layout_width="100dp" android:layout_height="wrap_content"
+            android:id="@+id/edtxpeso"
+            android:textColor="#ffff"
+            android:textStyle="italic"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="1dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

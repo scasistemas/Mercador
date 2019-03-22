@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    >
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40sp"
+        android:id="@+id/unitario"
+        android:text="texto"
+        android:textColor="#bcb7ff"
+
+
+        />
+    <TextView
+
+        android:layout_width="110dp"
+        android:layout_height="40sp"
+        android:id="@+id/qtdminfatura"
+        android:text="texto"
+        android:gravity="center"
+        android:textColor="#ff9899"
+
+        />
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="40sp"
+        android:id="@+id/precoQtdMin"
+        android:text="texto"
+        android:gravity="center"
+        android:textColor="#bcb7ff"
+
+       
+
+        />
+</LinearLayout>

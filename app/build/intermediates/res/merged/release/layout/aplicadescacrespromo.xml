@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="50sp" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:id="@+id/xsubLayout"
+        android:keepScreenOn="true" android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--<LinearLayout
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="1sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+              <Spinner
+                        android:id="@+id/tipodescacrespromo"
+                        android:layout_width="280sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="0sp"
+                        android:paddingTop="0sp"
+              />
+        </LinearLayout>-->
+
+
+        <!--<LinearLayout   android:id="@+id/xLayoutBtPrecoPromoDescQtde"
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="135sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+            <Button android:soundEffectsEnabled="true" android:id="@+id/xDonePrecoPromoDescQtde"
+                android:layout_width="70sp" android:layout_height="fill_parent"
+                android:layout_gravity="right" android:text="Ok"
+                android:textColor="#000" android:textStyle="bold" android:tag="done"
+                android:fitsSystemWindows="true" />
+            <Button android:soundEffectsEnabled="true" android:id="@+id/xCancelPrecoPromoDescQtde"
+                android:layout_width="70sp" android:layout_height="fill_parent"
+                android:layout_gravity="right" android:text="Cancel"
+                android:textColor="#000" android:textStyle="bold" android:tag="cancel"
+                android:fitsSystemWindows="true" />
+        </LinearLayout>-->
+
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="1sp"
+            android:layout_height="wrap_content" android:paddingLeft="5sp">
+
+            <TextView android:layout_width="100sp" android:layout_height="20sp"
+                android:text="Valor Unitário:" android:layout_gravity="right" />
+
+
+            <EditText android:id="@+id/valor" android:layout_width="190sp"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="50sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Desconto por Qtde" android:layout_gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="70sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+             <Spinner
+                    android:id="@+id/descqtde"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55sp"
+                    android:layout_centerInParent="true"
+             />
+        </LinearLayout> -->
+
+        <!--<LinearLayout
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="120sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="Preço Promocional" android:layout_gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="140sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+             <Spinner
+                    android:id="@+id/precopromo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55sp"
+                    android:layout_centerInParent="true"
+             />
+
+        </LinearLayout>-->
+
+
+        <!--<LinearLayout   android:id="@+id/xLayoutPrTabVrTot"
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="150sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+            <TextView android:layout_width="55sp" android:layout_height="20sp"
+                   android:text="Pr. Tab:" android:layout_gravity="right" />
+            <TextView  android:id="@+id/tbpreco" android:layout_width="100sp" android:layout_height="20sp"
+                  android:layout_gravity="right" />
+
+            <TextView android:layout_width="55sp" android:layout_height="20sp"
+                   android:text="Vr.Tot" android:layout_gravity="right" />
+            <TextView  android:id="@+id/vrtotal" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+
+        </LinearLayout>-->
+
+
+        <!--<LinearLayout  android:id="@+id/xLayoutMaxVr"
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="135sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+            <TextView android:layout_width="55sp" android:layout_height="20sp"
+                   android:text="Max.Vr.:" android:layout_gravity="right" />
+            <TextView  android:id="@+id/maxvrunit" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+
+            <TextView  android:id="@+id/maxvrunitperc" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+        </LinearLayout>
+
+
+        <LinearLayout android:id="@+id/xLayoutMinVr"
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="170sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+            <TextView android:layout_width="55sp" android:layout_height="20sp"
+                   android:text="Max.Vr.:" android:layout_gravity="right" />
+            <TextView  android:id="@+id/minvrunit" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+
+            <TextView  android:id="@+id/minvrunitperc" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+        </LinearLayout>-->
+
+        <!--<LinearLayout  android:id="@+id/xLayoutLucra"
+                android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="215sp"
+                android:layout_height="wrap_content" android:paddingLeft="5sp">
+            <TextView android:layout_width="55sp" android:layout_height="20sp"
+                   android:text="% Lucra.:" android:layout_gravity="right" />
+            <TextView  android:id="@+id/lucvrunit" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+
+            <TextView  android:id="@+id/lucvrunitperc" android:layout_width="100sp" android:layout_height="20sp"
+                    android:layout_gravity="right" />
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:paddingLeft="1sp" android:paddingTop="65sp"  >
+
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" android:layout_height="200sp"
+                android:orientation="vertical" android:layout_alignParentBottom="true"
+                android:clipChildren="true" android:id="@+id/xLayoutBt" >
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content" android:layout_height="200sp"
+                    android:padding="0sp">
+
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:padding="0sp">
+                        <LinearLayout android:baselineAligned="true"
+                            android:layout_width="fill_parent" android:layout_height="45sp"
+                            android:fitsSystemWindows="true">
+                            <Button android:id="@+id/x1" android:layout_width="70sp"
+                                android:layout_height="fill_parent" android:text="1"
+                                android:textColor="#000" android:tag="1" android:padding="0sp"
+                                android:textStyle="bold" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x2"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:padding="0sp" android:textColor="#000" android:tag="2"
+                                android:text="2" android:textStyle="bold" android:layout_gravity="left" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x3"
+                                android:layout_gravity="left" android:layout_width="70sp"
+                                android:padding="0sp" android:layout_height="fill_parent"
+                                android:text="3" android:tag="3" android:textStyle="bold"
+                                android:textColor="#000" android:fitsSystemWindows="true" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x4"
+                                android:layout_width="70sp" android:layout_gravity="center_horizontal"
+                                android:layout_height="fill_parent" android:text="4" android:tag="4"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:fitsSystemWindows="true" android:ellipsize="marquee" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:padding="0sp">
+                        <LinearLayout android:baselineAligned="true"
+                            android:layout_width="fill_parent" android:layout_height="45sp"
+                            android:fitsSystemWindows="true">
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x5"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:tag="5" android:layout_gravity="center" android:text="5"
+                                android:fitsSystemWindows="true" android:textColor="#000"
+                                android:textStyle="bold" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x6"
+                                android:layout_width="70sp" android:layout_gravity="center_horizontal"
+                                android:layout_height="fill_parent" android:text="6" android:tag="6"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:fitsSystemWindows="true" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x7"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:text="7" android:fitsSystemWindows="true" android:tag="7"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_gravity="center_horizontal" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x8"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:text="8" android:fitsSystemWindows="true" android:tag="8"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_gravity="center_horizontal" android:ellipsize="marquee" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:fitsSystemWindows="true"
+                        android:visibility="visible" android:orientation="horizontal">
+                        <LinearLayout android:layout_width="fill_parent"
+                            android:layout_height="45sp" android:gravity="bottom"
+                            android:orientation="horizontal">
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x9"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:tag="9" android:text="9" android:fitsSystemWindows="true" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x0"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:tag="0" android:text="0" android:fitsSystemWindows="true" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xPonto"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="."
+                                android:textColor="#000" android:textStyle="bold" android:tag="."/>
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xLimpa"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="Limp."
+                                android:textColor="#000" android:textStyle="bold" android:tag="limpa"/>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:fitsSystemWindows="true"
+                        android:visibility="visible" android:orientation="horizontal">
+                        <LinearLayout android:layout_width="fill_parent"
+                            android:layout_height="50sp" android:gravity="bottom"
+                            android:orientation="horizontal">
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xDoneBt"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="Ok"
+                                android:textColor="#000" android:textStyle="bold" android:tag="done"
+                                android:fitsSystemWindows="true" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xCancelBt"
+                                android:layout_width="70sp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="Cancel"
+                                android:textColor="#000" android:textStyle="bold" android:tag="cancel"
+                                android:fitsSystemWindows="true" />
+                        </LinearLayout>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

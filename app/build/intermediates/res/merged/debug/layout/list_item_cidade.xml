@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:padding="10px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wrap_content"
+
+            />
+
+
+        <TextView
+            android:id="@+id/comboName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            >
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        >
+
+        <TextView
+            android:id="@+id/kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dent. Praz.:"
+            android:textColor="#53933f"
+
+            />
+        <TextView
+            android:id="@+id/dentpraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vr.Total:"
+            android:textColor="#53933f"
+            />
+        <TextView
+            android:id="@+id/kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Fora Prazo:"
+            android:textColor="#ffc23b3b"
+
+            />
+        <TextView
+            android:id="@+id/forapraz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vr.Total:"
+            android:textColor="#ffc23b3b"
+            />
+        <TextView
+            android:id="@+id/kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Sem Vis:"
+            />
+        <TextView
+            android:id="@+id/privis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

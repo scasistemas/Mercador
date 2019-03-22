@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:padding="10px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/lb_produto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="produto"
+            />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lb_titpeso_venda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Peso: "
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/lb_peso_venda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="0.00"
+            android:textColor="#ffbaae1e"
+            android:layout_toRightOf="@+id/lb_titpeso_venda"/>
+
+        <TextView
+            android:id="@+id/lb_titmeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Meta: "
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/lb_meta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Meta"
+            android:textColor="#ffbaae1e"
+            android:layout_toRightOf="@+id/lb_titmeta"/>
+
+        <TextView
+            android:id="@+id/lb_titdif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dif: "
+            android:layout_toLeftOf="@+id/lb_dif"
+           />
+
+        <TextView
+            android:id="@+id/lb_dif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:layout_gravity="right"
+            android:textColor="#ffbaae1e"
+            android:layout_alignParentRight="true"
+          />
+
+    </RelativeLayout>
+
+</LinearLayout>

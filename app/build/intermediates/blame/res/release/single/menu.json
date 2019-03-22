@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Projetos_Android\\git\\Mercador\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu.xml",
+        "source": "C:\\Projetos_Android\\git\\Mercador\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Projetos_Android\\git\\Mercador\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Projetos_Android\\git\\Mercador\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Projetos_Android\\git\\Mercador\\app\\build\\intermediates\\res\\merged\\release\\menu\\ftpmenu.xml",
+        "source": "C:\\Projetos_Android\\git\\Mercador\\app\\src\\main\\res\\menu\\ftpmenu.xml"
+    }
+]

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:paddingTop="1sp"  android:id="@+id/lidescri">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/descricao"
+             android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:layout_below="@+id/lidescri"  >
+        <TextView android:layout_width="95sp" android:layout_height="20sp"
+            android:text="Qtde. " android:layout_gravity="right"
+            android:textColor="#ffbaae1e"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:id="@+id/quantidade"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:layout_alignParentLeft="true" />
+        <TextView android:layout_width="95sp" android:layout_height="20sp"
+            android:text="   Vlr. " android:layout_gravity="right"
+            android:textColor="#ffbaae1e"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_marginTop="0sp"
+            android:paddingTop="0sp"
+            android:id="@+id/preco"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:id="@+id/xsubLayout"
+        android:keepScreenOn="true" android:orientation="vertical" android:gravity="center"
+        android:layout_height="wrap_content" android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:paddingTop="5dp"   android:id="@+id/liprodescri">
+            <TextView android:id="@+id/produto" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="prod" android:layout_gravity="right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content"  android:id="@+id/liquanti"
+            android:layout_height="wrap_content" android:paddingLeft="5dp" android:layout_below="@+id/liprodescri">
+
+            <Spinner
+                android:id="@+id/un"
+                android:layout_width="110dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="0sp"
+                android:paddingTop="0sp"
+                />
+
+            <TextView android:layout_width="45dp" android:layout_height="20dp"
+                android:text="Qtde:" android:layout_gravity="right" />
+
+
+            <EditText android:id="@+id/qtd" android:tag="qtd" android:layout_width="130dp"
+               android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/xLayoutInfpeso"
+            android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="67dp"
+            android:layout_height="wrap_content" android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/txkg"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="0sp"
+                android:paddingTop="0sp" />
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/xLayoutInfvalor"
+            android:orientation="horizontal" android:layout_width="wrap_content" android:layout_below="@+id/liquanti"
+            android:layout_height="wrap_content" android:paddingLeft="5sp" >
+            <TextView
+                android:id="@+id/descperc"
+                android:text="%"
+                android:layout_width="25dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="0sp"
+                android:paddingTop="0sp"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:id="@+id/lucvrunitperc"
+                android:layout_width="85dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text="12334"
+
+                />
+
+            <ImageButton android:id="@+id/btcalc" android:layout_width="55dp"
+                android:layout_height="50dp" android:text="Calculadora"  android:src="@drawable/ic_action_dial_pad"
+                android:textColor="#000" android:tag="1" android:padding="0sp"  android:visibility="gone"
+                android:textStyle="bold"  android:onClick="openCalculator" />
+            <ImageButton
+                android:id="@+id/btexpand"
+                android:src="@drawable/ic_action_expand"
+                android:layout_width="55dp"
+                android:layout_gravity="right" android:visibility="gone"
+                android:layout_height="50dp"  android:onClick="actionbt2"
+                />
+
+
+            <TextView android:layout_width="45dp" android:layout_height="20dp"
+                android:text="Vlr.:" android:layout_gravity="right" />
+            <EditText android:id="@+id/vrunit" android:layout_width="130dp"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+n         <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content" android:layout_below="@+id/xLayoutInfvalor"
+            android:layout_height="wrap_content" android:paddingLeft="5dp"  android:id="@+id/liref">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="20dp"
+                android:text="Ref.:" android:layout_gravity="right" android:id="@+id/txcustoref" />
+            <TextView  android:id="@+id/custoref" android:layout_width="130dp" android:layout_height="20dp"
+                android:layout_gravity="right" android:onClick="setcustoGer"
+                android:clickable="true" />
+
+            <TextView android:layout_width="85dp" android:layout_height="20dp" android:id="@+id/txtprpromo"
+                android:text="Pr.Promo.:" android:layout_gravity="right" />
+            <TextView  android:id="@+id/prpromo" android:layout_width="50dp" android:layout_height="20dp"
+                android:layout_gravity="right" android:onClick="setprpromo"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content" android:layout_below="@+id/liref"
+            android:layout_height="wrap_content" android:paddingLeft="5dp"  android:id="@+id/licabeclista">
+
+
+                <TextView    android:text="Unitário   Qtd Promo"
+                    android:id="@+id/unitpromo"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+                <TextView    android:text="Preço de Venda"
+                    android:id="@+id/txtprvenda"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content"  android:layout_below="@+id/licabeclista"
+            android:layout_height="wrap_content" android:paddingLeft="5dp" android:id="@+id/listp" >
+
+            <ListView
+                android:id="@+id/descqtde"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:visibility="gone"
+                />
+
+            <ExpandableListView
+                android:id="@+id/expdescqtde"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:groupIndicator="@android:color/transparent"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/xLayoutDescontos" android:visibility="gone"
+            android:orientation="horizontal" android:layout_width="wrap_content"  android:paddingTop="190dp"
+            android:layout_height="wrap_content" android:paddingLeft="5dp">
+
+            <EditText android:id="@+id/desc1" android:layout_width="57dp"   android:tag="desc1"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+            <EditText android:id="@+id/desc2" android:layout_width="57dp"   android:tag="desc2"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+            <EditText android:id="@+id/desc3" android:layout_width="57dp"   android:tag="desc3"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+            <EditText android:id="@+id/desc4" android:layout_width="57dp"  android:tag="desc4"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+            <EditText android:id="@+id/desc5" android:layout_width="57dp"  android:tag="desc5"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <!--
+           240sp
+        -->
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="wrap_content"  android:layout_below="@id/listp"
+            android:layout_height="wrap_content" android:paddingLeft="1dp"   >
+
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content" android:layout_height="200dp"
+                android:orientation="vertical" android:layout_alignParentBottom="true"
+                android:clipChildren="true">
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content" android:layout_height="200dp"
+                    android:padding="0sp">
+
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:padding="0sp">
+                        <LinearLayout android:baselineAligned="true"
+                            android:layout_width="fill_parent" android:layout_height="45dp"
+                            android:fitsSystemWindows="true">
+                            <Button android:id="@+id/x1" android:layout_width="74dp"
+                                android:layout_height="fill_parent" android:text="1" android:layout_gravity="center_horizontal"
+                                android:textColor="#000" android:tag="1" android:padding="0sp"
+                                android:textStyle="bold" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x2"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:padding="0sp" android:textColor="#000" android:tag="2"
+                                android:text="2" android:textStyle="bold" android:layout_gravity="left" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x3"
+                                android:layout_gravity="left" android:layout_width="74dp"
+                                android:padding="0sp" android:layout_height="fill_parent"
+                                android:text="3" android:tag="3" android:textStyle="bold"
+                                android:textColor="#000" android:fitsSystemWindows="true" />
+
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xLimpa"
+                                android:layout_width="74dp"  android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="Limp."
+                                android:textColor="#000" android:textStyle="bold" android:tag="limpa"/>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:padding="0sp">
+                        <LinearLayout android:baselineAligned="true"
+                            android:layout_width="fill_parent" android:layout_height="45dp"
+                            android:fitsSystemWindows="true">
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x4"
+                                android:layout_width="74dp" android:layout_gravity="center_horizontal"
+                                android:layout_height="fill_parent" android:text="4" android:tag="4"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:fitsSystemWindows="true" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x5"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:tag="5" android:layout_gravity="center" android:text="5"
+                                android:fitsSystemWindows="true" android:textColor="#000"
+                                android:textStyle="bold" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x6"
+                                android:layout_width="74dp" android:layout_gravity="center_horizontal"
+                                android:layout_height="fill_parent" android:text="6" android:tag="6"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:fitsSystemWindows="true" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xPonto"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text=","
+                                android:textColor="#000" android:textStyle="bold" android:tag="."/>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:fitsSystemWindows="true"
+                        android:visibility="visible" android:orientation="horizontal">
+                        <LinearLayout android:layout_width="fill_parent"
+                            android:layout_height="45dp" android:gravity="bottom"
+                            android:orientation="horizontal">
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x7"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:text="7" android:fitsSystemWindows="true" android:tag="7"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_gravity="center_horizontal" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x8"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:text="8" android:fitsSystemWindows="true" android:tag="8"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_gravity="center_horizontal" android:ellipsize="marquee" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x9"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:tag="9" android:text="9" android:fitsSystemWindows="true" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/x0"
+                                android:textColor="#000" android:textStyle="bold"
+                                android:layout_width="74dp" android:layout_height="fill_parent"
+                                android:tag="0" android:text="0" android:fitsSystemWindows="true" />
+
+
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" android:fitsSystemWindows="true"
+                        android:visibility="visible" android:orientation="horizontal">
+                        <LinearLayout android:layout_width="wrap_content"
+                            android:layout_height="50dp" android:gravity="bottom"
+                            android:orientation="horizontal">
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xCancel"
+                                android:layout_width="148dp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="Cancel"
+                                android:textColor="#000" android:textStyle="bold" android:tag="cancel"
+                                android:fitsSystemWindows="true" />
+                            <Button android:soundEffectsEnabled="true" android:id="@+id/xDone"
+                                android:layout_width="148dp" android:layout_height="fill_parent"
+                                android:layout_gravity="right" android:text="Ok"
+                                android:textColor="#000" android:textStyle="bold" android:tag="done"
+                                android:fitsSystemWindows="true" />
+                        </LinearLayout>
+                    </TableRow>
+
+                </TableLayout>
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:id="@+id/xsubLayout"
+        android:keepScreenOn="true" android:orientation="vertical"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/prilay"
+            android:layout_height="wrap_content"  android:paddingTop="5sp" android:gravity="center"   >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent" android:id="@+id/laylarg"
+            android:layout_height="wrap_content" android:background="#ffff"  android:paddingTop="5sp" android:gravity="center"   android:layout_below="@id/prilay"  >
+
+            <TextView android:id="@+id/txtlarg" android:layout_width="wrap_content" android:layout_height="fill_parent"
+                 android:textSize="15sp" android:gravity="bottom" android:text="Largura: " android:textColor="#ff000000"/>
+            <TextView android:id="@+id/txtlarg2" android:layout_width="wrap_content" android:layout_height="fill_parent"
+                android:text="largura"  android:textSize="15sp" android:textColor="#ff000000"/>
+
+            <TextView android:id="@+id/txtesp" android:layout_marginLeft="10dp" android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:textSize="15sp" android:gravity="bottom" android:text="Espessura: " android:textColor="#ff000000"/>
+            <TextView android:id="@+id/txtesp2" android:layout_width="wrap_content" android:layout_height="fill_parent"
+                android:text="espessura"   android:textSize="15sp" android:textColor="#ff000000"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent"   android:id="@+id/desclay"
+            android:layout_below="@id/laylarg" android:layout_height="wrap_content"   android:gravity="center" android:layout_marginLeft="35dp">
+
+            <TextView android:id="@+id/txtcomprimento" android:layout_width="90sp" android:text="Comp:" android:layout_marginLeft="5dp"
+              android:layout_height="wrap_content" />
+            <TextView android:layout_width="45sp" android:layout_height="fill_parent"
+                android:text="" android:gravity="center" android:textColor="#2f6699" />
+            <TextView android:id="@+id/txtlargura" android:layout_width="100sp" android:text="Qtd:" android:inputType="numberDecimal" android:layout_marginRight="5dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent"   android:id="@+id/seglay"
+            android:layout_below="@id/desclay" android:layout_height="wrap_content"   android:gravity="center" android:layout_marginLeft="25dp">
+
+
+            <EditText android:id="@+id/edtxcomp" android:layout_width="100sp" android:hint="comp."  android:layout_marginLeft="5dp"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+            <TextView android:layout_width="35sp" android:layout_height="fill_parent"
+                android:text="" android:gravity="center" android:textColor="#2f6699" />
+            <EditText android:id="@+id/edtxqtd" android:layout_width="100sp" android:hint="qtd" android:inputType="numberDecimal" android:layout_marginRight="5dp"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content"  />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="fill_parent"   android:id="@+id/lidesc"
+            android:layout_below="@id/seglay" android:layout_height="wrap_content" android:paddingLeft="5sp"  android:gravity="center">
+
+
+
+            <TextView android:id="@+id/txtdesconto" android:layout_width="45sp" android:layout_height="fill_parent"
+                android:text="Total:" android:gravity="center" />
+
+
+            <EditText android:id="@+id/edtxdqtdtotal" android:layout_width="75dp"
+                android:focusableInTouchMode="true" android:layout_height="wrap_content" />
+            <Button android:id="@+id/btcalc" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="calc."
+                android:textColor="#ff000000" android:onClick="calcular"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

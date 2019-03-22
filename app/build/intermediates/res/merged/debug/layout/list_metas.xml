@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meta :"
+            android:textColor="#ffbaae1e"
+            />
+        <TextView
+            android:id="@+id/txtmetcodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" -"
+            android:textColor="#ffbaae1e"
+            />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/txtmetdescri"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="descri"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Ini :"
+                android:textColor="#ffbaae1e"
+                />
+            <TextView
+                android:id="@+id/txtmetdatai"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="00/00/1900"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Fim :"
+                android:textColor="#ffbaae1e"
+                />
+            <TextView
+                android:id="@+id/txtmetdataf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00/00/1900"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffbaae1e"
+            android:text="Meta Geral:"
+
+            />
+        <TextView
+            android:id="@+id/txtmetmeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="0.00"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffbaae1e"
+            android:text="Meta Conj. Prod:"
+            />
+        <TextView
+            android:id="@+id/txtmetmetacprod"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="0.00"
+            />
+     </LinearLayout>
+</LinearLayout>

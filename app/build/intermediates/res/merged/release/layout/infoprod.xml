@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:id="@+id/xsubLayout"
+    android:keepScreenOn="true" android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/lititle"
+        >
+        <TextView
+            android:id="@+id/txvinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacoes dos Produtos"
+            android:textSize="16dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ff2d2d2d"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/subtitle"
+        android:layout_below="@+id/lititle"
+        >
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Informacoes dos Produtos"
+            android:textSize="16dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ff2d2d2d"
+            />
+
+
+    </LinearLayout>
+
+
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/txvinfo2"
+                android:orientation="horizontal"
+                android:layout_below="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView    android:text="Codigo: "
+                    android:id="@+id/txtcodigo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingTop="3dp"/>
+                <TextView
+                    android:id="@+id/txtdesccod"
+                    android:text="DescCodigo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingTop="3dp"/>
+                <TextView
+                    android:id="@+id/txtdesc"
+                    android:text="Desc: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtcodigo"
+                    android:paddingTop="3dp"/>
+                <TextView
+                    android:id="@+id/txtdescdesc"
+                    android:text="DescDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@id/txtcodigo"
+                    android:paddingTop="3dp"/>
+                <TextView    android:text="Lagura: "
+                    android:id="@+id/txtlarg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/txtdesc"
+                    android:paddingTop="3dp"/>
+                <TextView    android:text="DescLarg"
+                    android:id="@+id/txtdesclarg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"/>
+                <TextView    android:text="Espessura: :"
+                    android:id="@+id/txtesp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/txtlarg"
+                    android:paddingTop="3dp"/>
+                <TextView
+                    android:id="@+id/txtdescesp"
+                    android:text="DescLarg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtdesclarg"
+
+                    android:paddingTop="3dp"/>
+                <TextView    android:text="Unidade: :"
+                    android:id="@+id/txtun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/txtesp"
+                    android:paddingTop="3dp"/>
+                <TextView
+                    android:id="@+id/txtdescun"
+                    android:text="DescUni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtesp"
+
+                    android:paddingTop="3dp"/>
+
+                <ImageView    android:text="Preço de Venda"
+                    android:layout_width="150sp"
+                    android:layout_height="100sp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/icon"
+                    />]
+
+            </RelativeLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/lititle2"
+                    android:layout_below="@id/txvinfo2"
+                    >
+                    <TextView
+                        android:id="@+id/txttile2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Valores"
+                        android:textSize="16dp"
+                        android:gravity="center_horizontal"
+                        android:textColor="#ff2d2d2d"
+                        />
+
+
+                </LinearLayout>
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvinfo3"   android:layout_below="@+id/lititle2"
+                android:shrinkColumns="3"  android:stretchColumns="3" android:background="#fffafaff">
+
+                <!-- Row 2 with 3 columns -->
+
+                <TableRow
+                    android:id="@+id/op2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <Button
+                        android:id="@+id/btprox" android:text=">"
+                        android:layout_weight="1.0"  android:layout_height="fill_parent"
+                        android:gravity="center" android:onClick="bkpserv"
+                        android:layout_marginLeft="0dp"
+                        android:padding="0dp"/>
+                    <Button
+                        android:id="@+id/btbkserv" android:text="Localizar"
+                          android:layout_height="fill_parent" android:layout_weight="1.0"
+                        android:gravity="center" android:onClick="bkpserv"
+                        android:layout_marginLeft="0dp"
+                        android:padding="0dp"/>
+
+                </TableRow>
+            </TableLayout>
+    </RelativeLayout>
+
+

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="12dp"
+    android:layout_gravity="center"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:id="@+id/coditem"
+            android:textColor="#ffbaae1e"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:id="@+id/descricaoItem"
+            android:text="produtodescri"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="25sp"
+            android:layout_weight="0.6"
+            android:text="Vend:"
+            android:textColor="#ffbaae1e"
+            android:textStyle="italic"
+            style="@style/textview"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20sp"
+            android:id="@+id/txt_venda"
+            android:text="0.00"
+            android:layout_gravity="left"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="25sp"
+            android:layout_weight="0.5"
+            android:text="Dev:"
+            android:textColor="#ffbaae1e"
+            android:textStyle="italic"
+            style="@style/textview"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20sp"
+            android:id="@+id/txt_dev"
+            android:text="0.00"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="25sp"
+            android:layout_weight="0.5"
+            android:text="Índ:"
+            android:textColor="#ffbaae1e"
+            android:textStyle="italic"
+            style="@style/textview"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20sp"
+            android:id="@+id/txt_indice"
+            android:text="0.00"
+            android:layout_gravity="left"
+            />
+
+        </LinearLayout>
+</LinearLayout>
